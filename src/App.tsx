@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div>
-      <h1>Мой сайт 2</h1>
+      <h1>Мой сайт 3</h1>
       <InstallPwaButton />
     </div>
   );
