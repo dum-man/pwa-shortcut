@@ -8,6 +8,7 @@ import ChatScript from "@/lib/ChatScript";
 import GtmScript from "@/lib/GtmScript";
 import Providers from "@/lib/Providers";
 import YmScript from "@/lib/YmScript";
+import AndroidComponent from "@/modules/AndroidComponent";
 import AppLabelModal from "@/modules/AppLabelModal";
 import CameraModal from "@/modules/CameraModal";
 import ChangePhoneNumberModal from "@/modules/ChangePhoneNumberModal";
@@ -108,6 +109,7 @@ const RootLayout = async ({ children }: Readonly<RootLayoutProps>) => {
               <TempPasswordModal />
               <ChangePhoneNumberModal />
               <AppLabelModal />
+              <AndroidComponent />
             </App>
           </NextIntlClientProvider>
         </Providers>
