@@ -1,0 +1,16 @@
+.list {
+}
+
+.list a {
+  color: var(--white);
+}
+
+.list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .list li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}

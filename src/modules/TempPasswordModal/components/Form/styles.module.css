@@ -1,0 +1,22 @@
+.text {
+  text-align: center;
+}
+
+.text:first-of-type {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text:last-of-type {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.text-btn {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+  color: var(--brand-secondary);
+}

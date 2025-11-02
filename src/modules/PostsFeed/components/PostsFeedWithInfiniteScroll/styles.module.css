@@ -1,0 +1,14 @@
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px 30px;
+  margin-bottom: 30px;
+}

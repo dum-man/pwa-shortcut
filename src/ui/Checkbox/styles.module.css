@@ -1,0 +1,20 @@
+.label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  user-select: none;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.label svg {
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .label {
+    font-size: 14px;
+  }
+}

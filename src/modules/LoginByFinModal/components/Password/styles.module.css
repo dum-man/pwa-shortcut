@@ -1,0 +1,17 @@
+.input-wrapper {
+  margin-bottom: 30px;
+}
+
+.note {
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.text-btn {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-secondary);
+}

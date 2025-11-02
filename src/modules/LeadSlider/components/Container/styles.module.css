@@ -1,0 +1,27 @@
+.section {
+  background-color: #484ff3;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transform: translateY(250px);
+  transition: transform 0.5s ease-out;
+  padding: 30px 100px;
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  margin-bottom: 50px;
+}
+
+.text {
+  margin-bottom: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #979797;
+}
+
+.text span {
+  color: var(--brand-secondary);
+}
+
+.text + button {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

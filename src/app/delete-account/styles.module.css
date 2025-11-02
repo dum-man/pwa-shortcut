@@ -1,0 +1,39 @@
+.section {
+  padding: 100px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    min-height: var(--content-height);
+    padding: 30px 20px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+}

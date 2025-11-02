@@ -1,0 +1,21 @@
+.nav {
+  margin: 0 auto;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 25px;
+  font-size: 14px;
+}
+
+.nav a {
+  color: var(--white);
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    display: none;
+  }
+}

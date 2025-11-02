@@ -1,0 +1,51 @@
+.button {
+  margin-left: auto;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.user-button {
+  gap: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.user-button > svg {
+  width: 24px;
+  height: 12px;
+  transition: transform 0.2s;
+}
+
+.user-button > img {
+  border-radius: 50%;
+}
+
+.user-button__active > svg {
+  transform: rotate(180deg);
+}
+
+.icon-wrapper {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+}
+
+.login-button {
+  max-width: fit-content;
+  height: 44px;
+  padding: 0 10px;
+  background-color: var(--brand-secondary);
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    display: none;
+  }
+}

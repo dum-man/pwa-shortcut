@@ -1,0 +1,46 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 8px;
+  outline: none;
+}
+
+.primary-variant {
+  height: 60px;
+  padding: 20px;
+  border: 1px solid #bbbbbb;
+}
+
+.secondary-variant {
+  height: 50px;
+  padding: 10px 15px;
+  border: none;
+}
+
+.input::placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  letter-spacing: normal;
+  color: #a59fac;
+}
+
+.error-message {
+  font-size: 10px;
+  color: var(--red);
+}

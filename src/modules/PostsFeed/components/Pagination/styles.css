@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.page-item .page-link {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.page-item.active .page-link {
+  color: var(--brand-secondary);
+}
+
+.page-item.disabled .page-link {
+  cursor: default;
+  opacity: 0.4;
+}

@@ -1,0 +1,32 @@
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 16px;
+}
+
+.sm {
+  height: 52px;
+}
+
+.md {
+  max-width: 365px;
+  height: 60px;
+}
+
+.lg {
+  max-width: 482px;
+  height: 60px;
+}
+
+.primary {
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
+.secondary {
+}

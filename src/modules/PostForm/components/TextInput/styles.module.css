@@ -1,0 +1,17 @@
+.label {
+  display: block;
+}
+
+.label p {
+  margin-bottom: 5px;
+}
+
+.label input {
+  width: 100%;
+}
+
+.label span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}

@@ -1,0 +1,15 @@
+.swiper {
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    background-color: rgb(83, 162, 150);
+  }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text {
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

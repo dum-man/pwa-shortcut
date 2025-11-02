@@ -1,0 +1,32 @@
+.section {
+  min-height: var(--content-height);
+  padding: 100px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content {
+  margin: 30px 0;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 30px 20px;
+  }
+}

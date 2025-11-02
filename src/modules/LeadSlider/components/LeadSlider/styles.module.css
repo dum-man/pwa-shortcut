@@ -1,0 +1,38 @@
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.wrapper > div:first-child,
+.wrapper > div:last-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sum {
+  margin-top: 5px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.divider {
+  background-color: var(--white);
+  margin: 0 50px;
+  width: 1px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .divider {
+    display: none;
+  }
+}

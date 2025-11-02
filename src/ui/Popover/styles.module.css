@@ -1,0 +1,31 @@
+.content {
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  right: calc((100vw - var(--content-width)) / 2);
+  background-color: var(--white);
+  border-radius: 2px;
+  box-shadow: 0 4px 32px rgb(0 0 0 / 16%);
+}
+
+.animation-enter {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.animation-enter-active {
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animation-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animation-exit-active {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+}

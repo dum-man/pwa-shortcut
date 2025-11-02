@@ -1,0 +1,90 @@
+.container {
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin-bottom: 30px;
+  padding: 20px 50px 30px 50px;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.wrapper > button {
+  margin: 0 auto;
+}
+
+.divider {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.list:first-of-type {
+  margin-bottom: 35px;
+}
+
+.list:last-of-type {
+  margin-bottom: 5px;
+}
+
+.list:last-of-type p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.list:last-of-type .list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list-item div {
+  flex: 1;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.list-item span {
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.remark {
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  color: #4f4d4d;
+}
+
+.checkbox-link {
+  display: inline;
+  color: var(--brand-secondary);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .list {
+    font-size: 14px;
+  }
+}

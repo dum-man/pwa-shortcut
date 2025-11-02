@@ -1,0 +1,87 @@
+.loading-placeholder {
+  height: calc(100svh - 80px);
+  background-color: #53a296;
+}
+
+.section {
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.alert {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.alert p {
+  padding: 10px;
+  font-weight: 700;
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  border-radius: 12px;
+}
+
+.alert a {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.daily-calculator {
+  align-self: flex-end;
+  z-index: 1;
+}
+
+.daily-calculator > div {
+  border-top-left-radius: 0;
+}
+
+.tab-button {
+  min-width: 214px;
+  padding: 15px 30px 10px 30px;
+  border-radius: 24px 24px 0 0;
+  font-weight: 600;
+  user-select: none;
+}
+
+.tab-button-daily {
+  color: #e3ff9f;
+  background-color: #484ff3;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    position: static;
+    justify-content: center;
+    padding: 30px 20px;
+    background-color: #53a296;
+  }
+
+  .tabs {
+    justify-content: space-between;
+  }
+
+  .tabs .tab-button {
+    flex: 1;
+    min-width: auto;
+  }
+}

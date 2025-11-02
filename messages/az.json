@@ -1,0 +1,763 @@
+{
+  "metadata": {
+    "title": "24 saat ani onlayn kreditlər (kreditlər) - MFO AZPULMAT-dan kartınıza pulu imtinasız və çeksiz əldə edin"
+  },
+  "common": {
+    "progress": "Kreditin təsdiqlənmə ehtimalı {progress}%",
+    "address": "AZ1005, Bakı ṣəhəri, Nərimanov rayonu, <br /> Arif Heydərov küçəsi 66",
+    "getMoney": "Vəsait əldə etmək",
+    "downloadApp": "Tədbiqi yükləmək",
+    "getSms": "SMS kodu əldə etmək",
+    "send": "Təsdiq etmək",
+    "next": "Növbəti",
+    "scan": "Skan etmək",
+    "back": "Geri",
+    "takePhoto": "Şəkil çəkmək",
+    "submit": "Təsdiq etmək",
+    "requiredField": "Zəhmət olmasa, xananı doldurun",
+    "days": "gün",
+    "apply": "Tətbiq etmək",
+    "delete": "Silmək",
+    "enter": "Giriş",
+    "exit": "Çıxış",
+    "register": "Qeydiyyat",
+    "myCredit": "Mənim kreditim",
+    "myProfile": "Şəxsi kabinet",
+    "repayCredit": "Krediti ödəmək",
+    "returnSum": "Ödəniləcək məbləğ"
+  },
+  "lead": {
+    "text": {
+      "1": "Təklif və iradlarınız üçün <br></br>  qaynar xətt: <link>1670</link>"
+    }
+  },
+  "calculator": {
+    "title": {
+      "1": "Sizə {sum} təsdiq edilmişdir!",
+      "2": "Gündəlik"
+    },
+    "subtitle": {
+      "1": "Məbləği seçin",
+      "2": "Ödəniləcək borcun məbləği"
+    },
+    "text": {
+      "1": "Kreditin məbləği",
+      "2": "Kreditin müddəti",
+      "3": "Ödəniş tarixi",
+      "4": "Hesablamalar təfərrüatı ilə müqavilədə əks olunur",
+      "5": "15-ci gün üçün",
+      "6": "25-ci gün üçün",
+      "7": "30-cu gün üçün",
+      "8": "35-ci gün üçün",
+      "9": "45-ci gün üçün"
+    },
+    "table": {
+      "th": {
+        "1": "Ödəniləcək borcun məbləği",
+        "2": "Kreditdən istifadəyə görə göstərilən xidmət haqqı",
+        "3": "%",
+        "4": "Ümumi"
+      },
+      "td": {
+        "1": "15-ci gün üçün",
+        "2": "25-ci gün üçün",
+        "3": "35-ci gün üçün",
+        "4": "45-ci gün üçün"
+      }
+    },
+    "note": {
+      "1": "Tez bağla, az ödə"
+    },
+    "placeholder": {
+      "1": "Promokod"
+    },
+    "action": {
+      "1": "Mən təkrar <button>kredit rəsmiləşdirmək üçün müraciət etmək istəyirəm</button>",
+      "2": "Mən <link>Məxfilik Siyasətini</link> oxudum və şərtləri qəbul edirəm"
+    }
+  },
+  "loginModal": {
+    "title": {
+      "1": "Giriş / Qeydiyyat"
+    },
+    "text": {
+      "1": "Mobil nömrənizi daxil edin"
+    }
+  },
+  "otpModal": {
+    "title": {
+      "1": "SMS kodu daxil edin",
+      "2": "Telefon nömrənizi təsdiq edin"
+    },
+    "text": {
+      "1": "Kodu təkrar {time} sonra <br/> əldə edə bilərsiniz"
+    },
+    "action": {
+      "1": "Kodu yenidən əldə etmək"
+    }
+  },
+  "cameraModal": {},
+  "navigation": {
+    "action": {
+      "1": "Kreditin verilmə qaydası",
+      "2": "Kreditin ödəmə qaydası",
+      "3": "Faizlərin hesablanması",
+      "4": "Xəbərlər",
+      "5": "Sənədlər",
+      "6": "Əlaqə"
+    }
+  },
+  "registration": {
+    "title": {
+      "1": "Müraciətiniz təsdiqləndi. <br/> Narahat olmayın – bu mərhələdə bizə heç bir borcunuz yoxdur!"
+    },
+    "text": {
+      "1": "Qeydiyyatdan keçib kredit əldə etmək üçün sizə lazım olacaq:"
+    },
+    "list": {
+      "1": {
+        "1": "Şəxsiyyət vəsiqəsi",
+        "2": "Mobil telefon",
+        "3": "Kamera"
+      }
+    }
+  },
+  "scanInstructions": {
+    "title": {
+      "1": "Sənədin skan edilməsi"
+    },
+    "subTitle": {
+      "1": "Sənədinizi hazırlayın",
+      "2": "Sənədi necə skan etmək olar:"
+    },
+    "text": {
+      "1": "* Əgər sayta kompüter vasitəsilə daxil olmusunuzsa, sizin kameraya ehtiyacınız olacaq"
+    },
+    "list": {
+      "1": {
+        "1": "Brauzerinizə veb kameranızdan istifadə etməyə icazə verin",
+        "2": "Sənədi çərçivəyə uyğun yerləşdirin",
+        "3": "Kameranın mətnə ​​fokuslandığından əmin olun"
+      }
+    }
+  },
+  "docType": {
+    "title": {
+      "1": "Şəxsiyyət vəsiqəsinin skanı"
+    },
+    "text": {
+      "1": "Əvvəlcə şəxsiyyət vəsiqəsinin ön tərəfini skan edin",
+      "2": "Sonra şəxsiyyət vəsiqəsinin arxa tərəfini skan edin"
+    },
+    "action": {
+      "1": "Başla"
+    }
+  },
+  "scanId": {
+    "title": {
+      "1": "Ön hissəsini skan edin",
+      "2": "Arxa hissəsini skan edin"
+    }
+  },
+  "howToGet": {
+    "title": {
+      "1": "İşləmə qaydası:"
+    },
+    "text": {
+      "1": "Azpulmat onlayn bank kreditləşməsinə əlverişli alternativdir."
+    },
+    "subTitle": {
+      "1": "Tətbiqdə və ya saytda kreditin",
+      "2": "Anketi şəxsiyyət vəsiqənizdə",
+      "3": "Müqaviləni",
+      "4": "Vəsaiti"
+    },
+    "subText": {
+      "1": "məbləğini və müddətini seçin",
+      "2": "olduğu kimi doldurun",
+      "3": "SİMA mobil tətbiqi ilə imzalayın",
+      "4": "bank kartınıza, Azərpoçt məntəqələrindən və ya Azpulmat terminalları vasitəsilə əldə edin"
+    },
+    "subDescription": {
+      "1": "Vəsaiti saytdan və ya Azpulmat tətbiqini yükləyərək əldə edə bilərsiniz",
+      "2": "Tələb olunan məlumatları təqdim edin və məlumatların sənədə uyğun olub-olmadığını yoxlayın",
+      "3": "Müraciətiniz təsdiq edildikdən sonra kreditin şərtləri ilə tanış olub, SİMA mobil tətbiqi ilə müqaviləni imzalayın.",
+      "4": "Müqavilə imzalandıqdan sonra pul bank kartına köçürüləcək. Sizə vəsaitin köçürülməsi barədə SMS gələcək"
+    }
+  },
+  "advantages": {
+    "title": {
+      "1": "Azpulmatın üstünlükləri"
+    },
+    "subTitle": {
+      "1": "Girovsuz və istənilən",
+      "2": "Yalnız şəxsiyyət",
+      "3": "Müraciətin dəqiqə ərzində"
+    },
+    "subText": {
+      "1": "məqsədlər üçün",
+      "2": "vəsiqəsi ilə",
+      "3": "baxılması və vəsaitin anında köçürülməsi"
+    }
+  },
+  "repaymentMethods": {
+    "title": {
+      "1": "Ödəniş üsulları"
+    },
+    "subtitle": {
+      "1": "Onlayn ödəniş etmək​",
+      "2": "Terminallar vasitəsilə ödəniş etmək",
+      "3": "Azərpoçt vasitəsilə ödəniş etmək",
+      "4": "Bank kartı vasitəsilə ödəniş etmək​",
+      "5": "Terminallar vasitəsilə ödəniş etmək​",
+      "6": "Elektron cüzdan vasitəsilə ödəniş etmək​",
+      "7": "Azərpoçt vasitəsilə ödəniş etmək​",
+      "8": "Azpulmat saytı vasitəsilə ödəniş etmək​",
+      "9": "Onlayn servislər vasitəsilə ödəniş etmək"
+    },
+    "text": {
+      "1": "Kreditinizi bank kartı ilə ödəyin – gizli komissiyasız ani ödəniş.",
+      "2": "Ən yaxın eManat, AsanPay, MilliÖn, Azpulmat terminalları ilə ödəniş edə bilərsiniz.",
+      "3": "Krediti elektron cüzdanlar və ödəniş sistemləri vasitəsilə ödəyə bilərsiniz.",
+      "4": "Yaxınlığınızda olan Azərpoçt məntəqəsini taparaq, FİN kodunuzu əməkdaşa təqdim edərək, kreditinizi ödəyə bilərsiniz."
+    },
+    "subtext": {
+      "1": "Azpulmat terminallarının ünvanı:"
+    },
+    "content": {
+      "1": {
+        "title": {
+          "1": "Krediti bank kartı vasitəsilə ödəyin:"
+        },
+        "subtitle": {
+          "1": "Azpulmat saytında​",
+          "2": "Azpulmat mobil tətbiqlərində​",
+          "3": "MilliÖn <siteLink>saytında</siteLink> və ya mobil <appLink>tətbiqində​</appLink>",
+          "4": "M10 mobil <appLink>tətbiqlərində</appLink>",
+          "5": "Birbank mobil <appLink>tətbiqlərində</appLink>",
+          "6": "Mpay mobil <appLink>tətbiqində​</appLink>"
+        },
+        "text": {
+          "1": "Telefon nömrəsini qeyd etməlisiniz​",
+          "2": "Komissiya: Ödənilən məbləğin 0.5%-i​​",
+          "3": "Telefon nömrəsini qeyd etməlisiniz",
+          "4": "Komissiya: Ödənilən məbləğin 0.5%-i​",
+          "5": "Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz",
+          "6": "Komissiya: Ödənilən məbləğin 1,1%-i​",
+          "7": "Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz",
+          "8": "Komissiya: Ödənilən məbləğin 1,1%-i",
+          "9": "Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz",
+          "10": "Komissiya: Ödənilən məbləğin 1,1%-i",
+          "11": "Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz",
+          "12": "Komissiya: 1 ₼"
+        }
+      },
+      "2": "<h3>Krediti terminal vasitəsilə ödəyin:</h3><p>Ən yaxın eManat, AsanPay, MilliÖn, Azpulmat terminalları ilə ödəniş edə bilərsiniz.​</p><br/><ul><li><h4>eManat, MPay​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz​</p><p>Ödəniş zamanı komissiya: 1 ₼​</p></li><li><h4>AsanPay</h4><p>Telefon nömrənizi daxil etməlisiniz</p><p>Ödəniş zamanı komissiya: 1 ₼</p></li><li><h4>MilliÖn​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz​</p><p>Ödəniş zamanı komissiya:​</p><ul><li>Minimum 1 ₼​</li><li>200 ₼-dək – 1 ₼​</li><li>200 ₼-dan 400 ₼-dək – 2 ₼​</li><li>400 ₼-dan 600 ₼-dək – 3 ₼</li></ul></li><li><h4>Azpulmat terminalları</h4><p>Telefon nömrənizi daxil etməlisiniz</p><p>Ödəniş zamanı komissiya: 0 ₼​</p></li></ul>",
+      "3": "<h3>Azərpoçt vasitəsilə ödəniş etmək​</h3><p>Yaxınlığınızda olan Azərpoçt məntəqəsini taparaq, FİN kodunuzu əməkdaşa təqdim edərək, kreditinizi ödəyin.</p><b>Ödəniş zamanı komissiya: 0,5%, lakin 0.5 ₼-dən az olmamaq şərti ilə.</b>"
+    },
+    "action": {
+      "1": "Seçmək",
+      "2": "İndi ödəmək​",
+      "3": "Ətraflı"
+    }
+  },
+  "repaymentMethodsPage": {
+    "content": {
+      "1": "<ul><li><h4>MilliÖn saytında və ya mobil tətbiqində​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz</p><p>Komissiya: Ödənilən məbləğin 1,1%-i​</p></li><li><h4>M10 mobil tətbiqində​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz​</p><p>Komissiya: Ödənilən məbləğin 1,1%-i</p></li><li><h4>Birbank mobil tətbiqində</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz</p><p>Komissiya: Ödənilən məbləğin 1,1%-i</p></li><li><h4>Mpay mobil tətbiqində​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz</p><p>Komissiya: 1 ₼​</p></li></ul>",
+      "2": "<h3>Krediti terminal vasitəsilə ödəyin:</h3><p>Ən yaxın eManat, AsanPay, MilliÖn, Azpulmat terminalları ilə ödəniş edə bilərsiniz.​</p><br/><ul><li><h4>eManat, MPay​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz​</p><p>Ödəniş zamanı komissiya: 1 ₼​</p></li><li><h4>AsanPay</h4><p>Telefon nömrənizi daxil etməlisiniz</p><p>Ödəniş zamanı komissiya: 1 ₼</p></li><li><h4>MilliÖn​</h4><p>Telefon nömrənizi və ya FİN kodunuzu daxil etməlisiniz​</p><p>Ödəniş zamanı komissiya:​</p><ul><li>Minimum 1 ₼​</li><li>200 ₼-dək – 1 ₼​</li><li>200 ₼-dan 400 ₼-dək – 2 ₼​</li><li>400 ₼-dan 600 ₼-dək – 3 ₼</li></ul></li><li><h4>Azpulmat terminalları</h4><p>Telefon nömrənizi daxil etməlisiniz</p><p>Ödəniş zamanı komissiya: 0 ₼​</p></li></ul>",
+      "3": "<h3>Azərpoçt vasitəsilə ödəniş etmək​</h3><p>Yaxınlığınızda olan Azərpoçt məntəqəsini taparaq, FİN kodunuzu əməkdaşa təqdim edərək, kreditinizi ödəyin.</p><b>Ödəniş zamanı komissiya: 0,5%, lakin 0.5 ₼-dən az olmamaq şərti ilə.</b>"
+    }
+  },
+  "receivingMethods": {
+    "title": {
+      "1": "Kreditin əldə edilmə üsulları​"
+    },
+    "subtitle": {
+      "1": "Kart vasitəsilə əldə etmək",
+      "2": "Terminal vasitəsilə əldə etmək",
+      "3": "Azərpoçt məntəqələrindən əldə etmək"
+    },
+    "text": {
+      "1": "Vəsaiti əldə etmək istədiyiniz kartın məlumatlarını daxil edin​",
+      "2": "Azpulmat terminalları üçün fərdi kod əldə edin. Ən yaxın Azpulmat terminalına yaxınlaşaraq, telefon nömrənizi və kodunuzu daxil edib krediti əldə edə bilərsiniz​",
+      "3": "Azərpoçt məntəqəsindən kredit əldə etmək üçün fərdi kod əldə edin.Ən yaxın Azərpoçt məntəqəsinə yaxınlaşaraq, FİN kodunuzu əməkdaşa təqdim edib krediti əldə edə bilərsiniz​"
+    },
+    "action": {
+      "1": "Seçmək"
+    }
+  },
+  "appPromo": {
+    "title": {
+      "1": "Smartfonunuzla vəsait əldə edin!"
+    },
+    "text": {
+      "1": "Azpulmat tətbiqi ilə asanlıqla vəsait əldə edin! <br></br>Tətbiq vasitəsilə təcili kredit müraciəti edə və kreditinizi ödəyə bilərsiniz. Həmçinin istədiyiniz zaman çağrı mərkəzimizlə əlaqə saxlaya bilərsiniz. <link>Audit tərəfindən yoxlanılıb.</link>"
+    }
+  },
+  "contacts": {
+    "title": {
+      "1": "Əlaqə"
+    }
+  },
+  "faq": {
+    "title": {
+      "1": "FAQ"
+    },
+    "subtitle": {
+      "1": "Kreditin ödəniş müddətini necə uzatmaq olar?",
+      "2": "Ödəniş tarixi keçmiş kreditin müddətini uzatmaq olar?",
+      "3": "Kreditin əldə edilməsi üçün hansı sənədlər tələb olunur?",
+      "4": "Azpulmat terminalları harada yerləşir?"
+    },
+    "description": {
+      "1": "<p>AZƏRBAYCAN RESPUBLİKASI MƏRKƏZİ BANKININ İDARƏ HEYƏTİNİN 46/2 saylı qərarına əsasən, <b>hazırda aktiv olan kreditlərin müddəti uzadıla bilməz.</b> Kredit tarixçənizin korlanmasının qarşısını almaq üçün kreditlər tam şəkildə və vaxtında ödənilməli, gecikməyə yol verilməməlidir.</p><br/><h3>Bu halda:</h3><ul style='list-style-type: \"✅ \"'><li>Sizə cərimə hesablanmayacaq;</li><li>Kredit tarixçəniz korlanmayacaq;</li><li>Bizdən yenidən kredit alma imkanınıza heç bir mənfi təsir olmayacaq.</li></ul>",
+      "2": "<p>AZƏRBAYCAN RESPUBLİKASI MƏRKƏZİ BANKININ İDARƏ HEYƏTİNİN 46/2 saylı qərarına əsasən, <b>hazırda aktiv olan kreditlərin müddəti uzadıla bilməz.</b> Kredit tarixçənizin korlanmasının qarşısını almaq üçün kreditlər tam şəkildə və vaxtında ödənilməli, gecikməyə yol verilməməlidir.</p>",
+      "3": "<p>Əgər siz borcunuzu vaxtında ödəməsəniz, kredit gecikmiş hesab olunacaq. Bu halda isə:</p><ul style='list-style-type: \"✅ \"'><li>Hər gün sizdə cərimə faizi hesablanacaq. Cərimə faizi kredit faizindən çoxdur.</li><li>Gecikmiş borc barədə məlumat kredit bürosuna təqdim ediləcək və bu, sizin Azərbaycan Respublikasında kredit reytinqinizi azaldacaq.</li><li>Kredit müqaviləniz məhkəməyə yönləndirilə bilər. Bu halda borcunuzun üzərinə məhkəmə xərcləri əlavə olunacaq.</li><li>Bizdən kredit əldə etmə şansınız və kredit limitiniz azalacaq.</li></ul>",
+      "4": "Krediti rəsmiləşdirmək üçün yalnız Azərbaycan Respublikası vətəndaşının şəxsiyyət vəsiqəsinin əsli tələb olunur.",
+      "5": "<ul><li>Metro Nəriman Nərimanov, Arif Heydərov küçəsi 66, AZPULMAT ofisi. (Həftəiçi, saat 09:00-dan 18:00-dək)</li><li>Gəncə şəhəri, Dədə Qorqud 42 (Köhnə Səadət Sarayı), AZPULMAT ofisi. (Həftəiçi, saat 09:00-dan 18:00-dək)</li><li>Metro Nəriman Nərimanov, Respublika Uşaq Stomatoloji Mərkəzi tərəfindən giriş. (Saat 06:00-dan 00:00-dək)</li><li>Metro Azadlıq, Tennis Akademiyası tərəfindən giriş. (Saat 06:00-dan 00:00-dək)</li><li>Bakı şəhəri, Sabunçu rayonu, Gənclik küçəsi 27C (24 saat)</li></ul>"
+    },
+    "text": {
+      "1": "Siz daha əvvəl rəsmiləşdirilmiş kreditlərin müddətini uzada bilərsiniz. Bunun üçün <b>siz hesablanan bütün faizləri və dəbbə pulunu</b> ödəməlisiniz (əgər kredit <b>29.08.2024 tarixindən əvvəl</b> rəsmiləşdirilibsə).",
+      "2": "Əgər kredit <b>29.08.2024-cü il tarixindən 24.12.2024-cü il tarixinədək</b> rəsmiləşdirilibsə, bu zaman <b>ümumi borcun</b> (əsas borc, faiz, dəbbə pulu) <b>17%-ni</b> ödəməlisiniz."
+    },
+    "table": {
+      "1": {
+        "th": {
+          "1": "Kredit məbləği​",
+          "2": "Gündəlik faiz dərəcəsi (1-ci gündən 5-ci günədək % hesablanmır)",
+          "3": "Gündəlik dəbbə pulu",
+          "4": "Fazilərin hesablanması​",
+          "5": "Dəbbə pulunun hesablanması​",
+          "6": "Verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı​",
+          "7": "Kreditin uzadılması üçün məbləğ​"
+        },
+        "td": {
+          "1": "30-cu gün",
+          "2": "31-ci gün",
+          "3": "32-ci gün",
+          "4": "33-cü gün"
+        }
+      },
+      "2": {
+        "th": {
+          "1": "Kreditin məbləği",
+          "2": "Gündəlik faiz",
+          "3": "Gecikmə zamanı faizlər",
+          "4": "Fazilərin hesablanması",
+          "5": "Cərimənin hesablanması",
+          "6": "Kreditin uzadılması üçün məbləğ"
+        },
+        "td": {
+          "1": "21-ci gün",
+          "2": "22-ci gün",
+          "3": "23-cü gün",
+          "4": "24-ci gün"
+        }
+      }
+    }
+  },
+  "footer": {
+    "subtitle": {
+      "1": "Çağrı mərkəzi​"
+    },
+    "text": {
+      "1": "BOKT «AZPUL» MMC AZƏRBAYCAN RESPUBLİKASI MƏRKƏZİ BANKI TƏRƏFİNDƏN VERİLMİŞ 18 SENTYABR 2020-Cİ İL TARİXLİ BKT-34 LİSENZİYASI ƏSASINDA FƏALİYYƏT GÖSTƏRİR",
+      "2": "© 2024 Kredit təşkilatı AZPULMAT-dan karta onlayn kredit"
+    },
+    "list": {
+      "1": {
+        "1": "E-mail",
+        "2": "Telegram",
+        "3": "İnstagram",
+        "4": "Ünvan"
+      }
+    }
+  },
+  "trustedContacts": {
+    "title": {
+      "1": "Əlavə kontaktlar",
+      "2": "Email ünvanınızı qeyd edin"
+    },
+    "label": {
+      "1": "Qohumun və ya tanışın adı",
+      "2": "Əlaqə nömrəsi",
+      "3": "Qohumluq / tanışlıq dərəcəsini seçin",
+      "4": "Email ünvanınızı qeyd edin"
+    },
+    "action": {
+      "1": "Əlavə etmək",
+      "2": "Silmək",
+      "3": "Təsdiq etmək"
+    }
+  },
+  "user": {
+    "title": {
+      "1": "Şəxsi kabinet"
+    },
+    "text": {
+      "1": "Soyad",
+      "2": "Ad",
+      "3": "Ata adı",
+      "4": "Doğum tarixi",
+      "5": "Telefon"
+    },
+    "action": {
+      "1": "Telefon nömrəsini dəyişdirmək"
+    }
+  },
+  "creditHistory": {
+    "title": {
+      "1": "Kredit tarixçəsi"
+    },
+    "text": {
+      "1": "Verilmə tarixi"
+    },
+    "action": {
+      "1": "Показать полностью",
+      "2": "Скрыть"
+    },
+    "status": {
+      "process": "Təsdiq prosesində",
+      "closed": "Bağlı",
+      "cancel": "Ləğv olunmuş",
+      "active": "Aktiv"
+    }
+  },
+  "activeCredit": {
+    "text": {
+      "1": "Kreditin məbləği",
+      "2": "Kreditin müddəti",
+      "3": "Ödəniş tarixi",
+      "4": "Qalıq borcun məbləği",
+      "5": "Kredit müqaviləsi"
+    }
+  },
+  "terminalRepayment": {
+    "title": {
+      "1": "Azpulmat terminalları vasitəsilə necə ödəniş etmək olar"
+    },
+    "subtitle": {
+      "1": "Azpulmat terminalı"
+    },
+    "text": {
+      "1": "Ödənişi mobil nömrənizi daxil edərəkən edə bilərsiniz"
+    },
+    "action": {
+      "1": "Azpulmat terminallarının siyahısını açın"
+    }
+  },
+  "postRepayment": {
+    "title": {
+      "1": "AZƏRPOÇT məntəqələrində necə ödəniş etmək olar"
+    },
+    "text": {
+      "1": "FIN kodunuzu qeyd etməlisiniz"
+    }
+  },
+  "creditCardRepayment": {
+    "title": {
+      "1": "Hörmətli"
+    },
+    "text": {
+      "1": "Bu günə olan borcunuz təşkil edir",
+      "2": "Diqqət! Xidmət haqqına görə komissiya tutula bilər",
+      "3": "Ödəniləcək məbləğ"
+    },
+    "action": {
+      "1": "Ödəmək"
+    }
+  },
+  "creditSuccess": {
+    "title": {
+      "1": "Vəsait göndərildi"
+    },
+    "text": {
+      "1": "Mikrokreditin məbləği",
+      "2": "Mikrokreditin müddəti",
+      "3": "Vəsait 15 dəqiqə ərzində köçürüləcək"
+    }
+  },
+  "creditRepaymentSuccess": {
+    "text": {
+      "1": "Zəhmət olmasa, əməliyyatın uğurla tamamlandığını və borc məbləğinin azaldığını yoxlayın. <br></br> Əgər sizdən vəsait tutulmayıbsa, bankınızla əlaqə saxlayın. <br></br> Sizdən vəsait tutulub, lakin borc məbləği azalmayıbsa, bizimlə <link>1670</link> nömrəsi vasitəsilə əlaqə saxlamağınızı xahiş edirik."
+    },
+    "action": {
+      "1": "Geri"
+    }
+  },
+  "beneficiaryQuestionnaire": {
+    "title": {
+      "1": "Nəzərinizə çatdırırıq ki, saxta məlumatların qeyd edilməsinə görə Azərbaycan Respublikasının qanunvericiliyinə əsasən məsuliyyət daşıyırsınız",
+      "2": "Məlumatları daxil edin"
+    },
+    "text": {
+      "1": "Vəsaitin köçürüldüyü kart mənə məxsusdur"
+    },
+    "action": {
+      "1": "Bəli",
+      "2": "Xeyr",
+      "3": "Təsdiq etmək"
+    }
+  },
+  "documents": {
+    "title": {
+      "1": "Sənədlər"
+    },
+    "action": {
+      "1": "Yoxlanılıb 2024",
+      "2": "Yoxlanılıb 2023",
+      "3": "Yoxlanılıb 2022",
+      "4": "Məxfilik siyasəti",
+      "5": "Məxfilik siyasəti",
+      "6": "Ərizə",
+      "7": "Sənədlər"
+    }
+  },
+  "loader": {
+    "title": {
+      "1": "Müraciətiniz artıq emal olunur"
+    },
+    "text": {
+      "1": "Bir az vaxt aparacaq. Müraciətiniz emal <br/> olunana qədər tətbiqi bağlamayın"
+    }
+  },
+  "confirmContract": {
+    "title": {
+      "1": "Müqavilə şərtləri ilə razılaşma"
+    },
+    "text": {
+      "1": "Kredit şərtləri ilə tanış olun və SİMA vasitəsilə müqaviləni imzalayın",
+      "2": "<span>Təsdiq etmək</span> düyməsini <br/>  klikləməklə siz bütün şərtlərlə razılaşırsınız"
+    },
+    "list": {
+      "1": "Kreditin məbləği",
+      "2": "Kreditin müddəti",
+      "3": "Faiz məbləği",
+      "4": "Ödəniş tarixi",
+      "5": "Ödəniləcək ümumi məbləğ"
+    }
+  },
+  "confirmContractSuccess": {
+    "title": {
+      "1": "Təbriklər, siz kredit rəsmiləşdirdiniz!"
+    },
+    "text": {
+      "1": "Qaldı vəsait əldə etmək"
+    },
+    "action": {
+      "1": "Vəsait əldə etmək"
+    }
+  },
+  "sima": {
+    "title": {
+      "1": "Müqavilənizi SİMA ilə imzalayın!"
+    },
+    "subtitle": {
+      "1": "SİMA tədbiqiniz yoxdursa",
+      "2": "SİMA tədbiqiniz varsa"
+    },
+    "text": {
+      "1": "Tədbiqi yükləmək üçün QR kodu skan edin və tədbiqi quraşdırın",
+      "2": "Tədbiqə daxil olun, və skan hissəsindən QR kodu skan edərək müqaviləni imzalayın"
+    },
+    "action": {
+      "1": "SİMA tədbiqini quraşdırmaq",
+      "2": "SİMA ilə imzalamaq"
+    }
+  },
+  "creditCostCalculation": {
+    "title": {
+      "1": "Kredit dəyərinin hesablanması"
+    },
+    "subtitle": {
+      "1": "Gündəlik kredit «İlk kredit»",
+      "2": "İstehlak krediti «Təkrar kredit»"
+    },
+    "table": {
+      "1": {
+        "th": {
+          "1": "Kreditin məbləği, ₼",
+          "2": "Günlük faiz dərəcəsi"
+        }
+      },
+      "2": {
+        "th": {
+          "1": "Kreditin müddəti",
+          "2": "Əsas borcun qalığı, ₼​",
+          "3": "Kredit məbləğindən istifadə haqqı, ₼​",
+          "4": "Gündəlik faiz",
+          "5": "Kreditin dəyəri, ₼​"
+        }
+      }
+    },
+    "text": {
+      "1": "<b>24.12.2024</b> tarixindən etibarən verilən kreditlərin minimum məbləği 20 ₼, maksimum məbləği isə 500 ₼ təşkil edir.<br/>Krediti aldıqdan sonra ilk 5 gün ərzində yalnız əsas borcu və kredit məbləğindən istifadə haqqını ödəyərək borcunuzu bağlaya bilərsiniz. İlk 1-5 gün ərzində faizlər hesablanmır.<br/>6-cı gündən 45-ci günədək gündəlik 0.3% faiz hesablanacaq.",
+      "2": "Qeyd etmək istərdik ki, əgər krediti vaxtından əvvəl bağlasanız, verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı azalacaq:​<br/>36-cı gündən etibarən verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı 30% təşkil edir​<br/>35-ci günə qədər verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı 30%-dən <b>25%-ə</b> düşür​<br/>25-ci günə qədər verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı 30%-dən <b>20%-ə</b> düşür​<br/>15-ci günə qədər verilmiş kreditdən istifadəyə görə göstərilən xidmət haqqı 30%-dən <b>15%-ə</b> düşür",
+      "3": "Faizlərin hesablanma nümunəsi:<br/>Kredit məbləği <b>150 ₼</b>, gündəlik faiz dərəcəsi <b>0.30%</b>",
+      "4": "<b>13.03.2025</b>-ci ildən etibarən rəsmiləşdirilən kreditlərin minimum məbləği 50 ₼, maksimum məbləği isə 1500 ₼ təşkil edir. <br/>Kreditin minimum müddəti: 1 ay. <br/>İstehlak krediti üçün müraciət edərkən müştərinin BOKT-da açıq kreditləri olmamalıdır. <br/>BOKT müştəriyə istehlak krediti verməkdən imtina edə bilər, bu isə onun kredit tarixçəsinə, iş yeri və gəlir haqqında məlumatlara, BOKT-dakı kredit tarixçəsinə və həmçinin daxili skorinq nəticələri ilə yanaşı, kredit bürosu tərəfindən təqdim olunan skorinq nəticələrinə əsaslanaraq həyata keçirilir."
+    }
+  },
+  "selfie": {
+    "title": {
+      "1": "Canlılıq testi"
+    },
+    "text": {
+      "1": "Papaq və eynəyinizi çıxardın, üzünüzün aydın və çərçivəyə düşdüyündən əmin olun"
+    },
+    "action": {
+      "1": "Kameranı açmaq"
+    }
+  },
+  "infoModal": {
+    "title": {
+      "1": "Kreditin 15-ci günündə bağlanması üçün ödəniləcək məbləğ"
+    },
+    "text": {
+      "1": "Saytdan daha səmərəli istifadə etmək üçün onu telefonunuzda quraşdırılmış veb-brauzerdə (məsələn, Chrome və ya Safari) açmağınızı tövsiyə edirik.",
+      "2": "Mən, “Bank Olmayan Kredit Təşkilatı Azpul” MMC tərəfindən məsafədən kredit müqaviləsinin bağlanması məqsədilə şəxsiyyətimin müəyyənləşdirilməsi üçün fotoşəklimin çəkilməsinə, eləcə də həmin fotonun toplanmasına, saxlanılmasına və emal olunmasına razılıq verirəm",
+      "3": "Mən, “Bank Olmayan Kredit Təşkilatı Azpul” MMC tərəfindən məsafədən kredit müqaviləsinin bağlanması məqsədilə şəxsiyyətimin müəyyənləşdirilməsi üçün video çəkilişinin aparılmasına, eləcə də həmin video görüntülərinin toplanmasına, saxlanılmasına və emal olunmasına razılıq verirəm",
+      "4": "Telefon nömrəniz uğurla yeniləndi",
+      "5": "Şifrəniz uğurla yaradıldı"
+    },
+    "action": {
+      "1": "Təsdiqlə",
+      "2": "İmtina et"
+    }
+  },
+  "errorModal": {
+    "title": {
+      "1": "Xəta"
+    },
+    "text": {
+      "1": "Əlavə olunan kontaktlar eyni olmamalıdır",
+      "2": "Zəhmət olmasa, hesaba daxil olun",
+      "3": "Müqavilənin imzalanması zamanı xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin."
+    }
+  },
+  "creditReceivingRejected": {
+    "text": {
+      "1": "Təəssüf ki, hazırda sizə kredit təqdim edə bilmirik. <br/> Müraciət etdiyiniz üçün təşəkkür edirik."
+    }
+  },
+  "terminals": {
+    "title": {
+      "1": "Terminallarımız"
+    },
+    "subtitle": {
+      "1": "Terminal"
+    },
+    "text": {
+      "1": "Bakı şəhəri, Arif Heydərov küçəsi 66, AZPULMAT ofisi. (Həftəiçi, saat 09:00-dan 18:00-dək)",
+      "2": "Gəncə şəhəri, Dədə Qorqud 42 (Köhnə Səadət Sarayı), AZPULMAT ofisi. (Həftəiçi, saat 09:00-dan 18:00-dək)",
+      "3": "Metro Nəriman Nərimanov, Respublika Uşaq Stomatoloji Mərkəzi tərəfindən giriş. (Saat 06:00-dan 00:00-dək)",
+      "4": "Metro Azadlıq, Tennis Akademiyası tərəfindən giriş. (Saat 06:00-dan 00:00-dək)",
+      "5": "Bakı şəhəri, Sabunçu rayonu, Gənclik küçəsi 27C (24 saat)"
+    },
+    "action": {
+      "1": "Xəritədə baxmaq"
+    }
+  },
+  "register": {
+    "title": {
+      "1": "Şəxsi məlumatlar"
+    },
+    "label": {
+      "1": "FİN",
+      "2": "Doğum tarixi"
+    },
+    "placeholder": {
+      "1": "FİN daxil edin",
+      "2": "GG.AA.İİİİ (nümunə: 25.06.2025)"
+    }
+  },
+  "news": {
+    "title": {
+      "1": "Xəbərlər"
+    }
+  },
+  "loginByFinModal": {
+    "title": {
+      "1": "Giriş"
+    },
+    "label": {
+      "1": "FIN daxil edin",
+      "2": "Şifrəni daxil edin"
+    },
+    "text": {
+      "1": "FİN kod düzgün daxil edilməyib"
+    },
+    "note": {
+      "1": "Əgər siz daha öncə şifrə yaratmamısınızsa və ya şifrəni unutmusunuz, xahiş edirik aşağıdaki linkə klikləyin"
+    },
+    "action": {
+      "1": "DAVAM ETMƏK",
+      "2": "Yeni şifrə / Şifrəni unutmusunuz"
+    }
+  },
+  "createPasswordModal": {
+    "title": {
+      "1": "Şifrə yaradın"
+    },
+    "label": {
+      "1": "Şifrəni daxil edin",
+      "2": "Şifrəni təkrarlayın"
+    },
+    "error": {
+      "1": "Şifrələr fərqlidir",
+      "2": "Şifrə ən az 8 simvoldan, ən az 1 böyük hərf, kiçik hərf, rəqəm və xüsusi simvol təşkil etməlidir"
+    },
+    "action": {
+      "1": "DAVAM ETMƏK"
+    }
+  },
+  "registerModal": {
+    "title": {
+      "1": "Qeydiyyat"
+    },
+    "label": {
+      "1": "FIN daxil edin",
+      "2": "Doğum tarixinizi daxil edin",
+      "3": "Telefon nömrəsini daxil edin"
+    },
+    "action": {
+      "1": "DAVAM ETMƏK"
+    }
+  },
+  "newPhoneNumberModal": {
+    "title": {
+      "1": "Yeni telefon nömrəsini daxil edin"
+    },
+    "action": {
+      "1": "DAVAM ETMƏK"
+    }
+  },
+  "tempPasswordModal": {
+    "text": {
+      "1": "Nömrəniz aktiv deyilsə, onu aşağıda dəyişə bilərsiniz"
+    },
+    "action": {
+      "1": "Şifrəni əldə etmək",
+      "2": "Telefon nömrəsini dəyişdirmək"
+    }
+  },
+  "changePhoneNumberModal": {
+    "title": {
+      "1": "Telefon nömrəsinin dəyişdirilməsi"
+    },
+    "action": {
+      "1": "DAVAM ETMƏK"
+    },
+    "label": {
+      "1": "FIN daxil edin"
+    }
+  },
+  "appLabelModal": {
+    "text": {
+      "1": "Saytın ikonunu mobil cihazın əsas ekranına əlavə etmək"
+    },
+    "action": {
+      "1": "Bəli",
+      "2": "Saytın ikonunu əsas ekranına əlavə etmək"
+    }
+  }
+}

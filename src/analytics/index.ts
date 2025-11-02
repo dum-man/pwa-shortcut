@@ -1,0 +1,48 @@
+export enum YMEvent {
+  LoginButton = "login_button",
+  CashOut = "cash_out",
+  CashOut2 = "cash_out2",
+  SendSmsCode = "send_sms_code",
+  LoginUser = "login_user",
+  MainContinue = "main_continue",
+  MainScan1 = "main_scan_1",
+  MainScanDocsNew = "main_scan_docs_new",
+  MainScanDocsOld = "main_scan_docs_old",
+  MainScanDocsContinue = "main_scan_docs_continue",
+  MainScanDocsSendPhotoOne = "main_scan_docs_send_photo_one",
+  MainScanDocsContinue2 = "main_scan_docs_continue_2",
+  MainScanDocsContinue3 = "main_scan_docs_continue_3",
+  MainScanDocsSendPhotoTwo = "main_scan_docs_send_photo_two",
+  MainScanDocsContinueFinal = "main_scan_docs_continue_final",
+  MainScanFaceContinue = "main_scan_face_continue",
+  MainScanFaceSendPhoto = "main_scan_face_send_photo",
+  MainInfoClCredit = "main_info_cl_credit",
+  MainInfoClCreditFinal = "main_info_cl_credit_final",
+  MainSendClContact = "main_send_cl_contact",
+  MainSendClContact2 = "main_send_cl_contact_2",
+  LoanReject = "loan_reject",
+  LoanAccept = "loan_accept",
+  LoanAcceptButton = "loan_accept_button",
+  LoanMethodCard = "loan_method_card",
+  LoanMethodTerminal = "loan_method_terminal",
+  LoanMethodAzermail = "loan_method_azermail",
+  SignAgreementMethodAccess = "sign_agreement_method_access",
+  SimaOpen = "sima_open",
+  SimaAccess = "sima_acsess",
+  LoanIssuedMethod = "loan_isseud_method",
+  LoanIssuedMethodTerminal = "loan_isseud_method_terminal",
+  LoanIssuedMethodAzermail = "loan_isseud_method_azermail",
+  LoanIssuedTerminal = "loan_isseud_terminal",
+  LoanIssuedAzermail = "loan_isseud_azermail",
+  LoanIssuedMain = "loan_isseud_main",
+  MainInfoBnCl = "main_info_bn_cl",
+  MainInfoBnClAccess = "main_info_bn_cl_acsess",
+  LoanIssuedMethodCard = "loan_isseud_method_card",
+  LoanIssuedCard = "loan_isseud_card",
+}
+
+export const sendYMEvent = (event: YMEvent, params?: Record<string, any>) => {
+  if (typeof window !== "undefined" && window.ym) {
+    window.ym(100043592, "reachGoal", event, params);
+  }
+};

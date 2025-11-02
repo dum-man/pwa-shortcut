@@ -1,0 +1,38 @@
+.wrapper {
+  margin-top: 20px;
+}
+
+.subtitle {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button {
+  max-width: 308px;
+  width: 100%;
+  height: 56px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--black);
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+  border-radius: 16px;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+}

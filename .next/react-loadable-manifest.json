@@ -1,0 +1,15 @@
+{
+  "app/components/Lead/Lead.tsx -> @/modules/LeadSwiper": {
+    "id": "app/components/Lead/Lead.tsx -> @/modules/LeadSwiper",
+    "files": [
+      "static/css/_app-pages-browser_src_modules_LeadSwiper_index_ts.css",
+      "static/chunks/_app-pages-browser_src_modules_LeadSwiper_index_ts.js"
+    ]
+  },
+  "components/TextEditor/TextEditor.tsx -> react-quill": {
+    "id": "components/TextEditor/TextEditor.tsx -> react-quill",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-quill_lib_index_js.js"
+    ]
+  }
+}

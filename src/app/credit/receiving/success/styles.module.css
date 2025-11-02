@@ -1,0 +1,171 @@
+.section {
+  display: flex;
+  padding: 100px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.info-wrapper {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+}
+
+.info-item {
+  flex: 1;
+  text-align: center;
+}
+
+.info-item p {
+  margin-bottom: 5px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.info-item span {
+  font-size: 14px;
+}
+
+.text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.divider {
+  width: 1px;
+  background-color: #979797;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.social-item a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--black);
+  font-weight: 700;
+}
+
+.icon-wrapper {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+}
+
+.icon-wrapper svg {
+  width: 16px;
+  height: 16px;
+  color: var(--white);
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 50px;
+  }
+
+  .social-list {
+    gap: 20px;
+  }
+
+  .social-item a {
+    gap: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    min-height: var(--content-height);
+    padding: 30px 20px;
+  }
+
+  .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .info-wrapper {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .info-item p {
+    font-size: 20px;
+  }
+
+  .info-item span {
+    font-size: 12px;
+  }
+
+  .text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .social-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .info-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divider {
+    width: 80%;
+    height: 1px;
+  }
+}

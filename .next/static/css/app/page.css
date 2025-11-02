@@ -1,0 +1,3197 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/Advantages/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__AtpgP {
+  padding: 80px 100px 100px 100px;
+  background: linear-gradient(
+    95.4deg,
+    rgba(86, 255, 236, 0.5) 0%,
+    rgba(22, 169, 152, 0.5) 100%
+  );
+}
+
+.styles_wrapper__vLyMT {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_title__qQcgi {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.styles_list__OCtcc {
+  display: flex;
+  gap: 50px;
+}
+
+.styles_list-item__kgAm3 {
+  flex: 1 1;
+  text-align: center;
+}
+
+.styles_list-item__kgAm3 img {
+  margin-bottom: 20px;
+}
+
+.styles_sub-title__aiBfN {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__AtpgP {
+    padding: 50px;
+  }
+
+  .styles_list__OCtcc {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__AtpgP {
+    padding: 50px 20px;
+  }
+
+  .styles_list__OCtcc {
+    flex-direction: column;
+  }
+
+  .styles_list-item__kgAm3 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .styles_title__qQcgi {
+    margin-bottom: 35px;
+    font-size: 24px;
+  }
+
+  .styles_sub-title__aiBfN {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .styles_sub-text__yMJY9 {
+    font-size: 14px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/AppPromo/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__bWmNZ {
+  background-color: #ebfffd;
+  padding: 50px 100px;
+}
+
+.styles_wrapper__jKhQ5 {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.styles_image__INgl4 {
+  display: block;
+  flex-shrink: 0;
+}
+
+.styles_image-mobile__rbNp0 {
+  display: none;
+}
+
+.styles_title__BQXGf {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.styles_text__Hmw90 {
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.styles_text__Hmw90 a {
+  color: inherit;
+}
+
+.styles_text__Hmw90 a:hover {
+  text-decoration: underline;
+}
+
+.styles_links-wrapper__rFcgs {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__bWmNZ {
+    padding: 30px 50px;
+  }
+
+  .styles_image-desktop__5z5ga {
+    display: none;
+  }
+
+  .styles_image-mobile__rbNp0 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .styles_title__BQXGf {
+    text-align: center;
+  }
+
+  .styles_text__Hmw90 {
+    text-align: center;
+  }
+
+  .styles_links-wrapper__rFcgs {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__bWmNZ {
+    padding: 50px 20px;
+  }
+
+  .styles_wrapper__jKhQ5 {
+    flex-direction: column;
+  }
+
+  .styles_image-mobile__rbNp0 {
+    width: 328px;
+    height: auto;
+  }
+
+  .styles_title__BQXGf {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .styles_text__Hmw90 {
+    font-size: 14px;
+  }
+
+  .styles_links-wrapper__rFcgs {
+    gap: 15px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/Contacts/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__TK8De {
+  padding: 120px 100px;
+}
+
+.styles_wrapper__O6FzO {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_title__H63TO {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.styles_list__sdZcn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px 60px;
+  gap: 40px 60px;
+}
+
+.styles_list-item__ZNhIR a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--black);
+}
+
+.styles_list-item__ZNhIR br {
+  display: none;
+}
+
+.styles_icon-wrapper__iHi_2 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+}
+
+.styles_icon-wrapper__iHi_2 svg {
+  color: var(--white);
+}
+
+@media (max-width: 1200px) {
+  .styles_section__TK8De {
+    padding: 80px 50px;
+  }
+
+  .styles_list__sdZcn {
+    gap: 20px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__TK8De {
+    padding: 80px 20px 30px 20px;
+  }
+
+  .styles_title__H63TO {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .styles_list__sdZcn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+  }
+
+  .styles_list-item__ZNhIR a {
+    gap: 10px;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Accordion/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_details__YJ1rP {
+  background-color: #f2f2f2;
+  border-radius: 16px;
+}
+
+.styles_summary__YTYLK {
+  padding: 25px 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.styles_content__uKxPn > * {
+  padding: 0 40px 40px 40px;
+}
+
+@media (max-width: 768px) {
+  .styles_summary__YTYLK {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .styles_content__uKxPn > * {
+    padding: 0 20px 20px 20px;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Contacts/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_list__MZU_q {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px 20px;
+  gap: 15px 20px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.styles_list__MZU_q.styles_primary__kWeic {
+  color: #5757b5;
+}
+
+.styles_list__MZU_q.styles_primary__kWeic a {
+  color: #5757b5;
+}
+
+.styles_list__MZU_q.styles_primary__kWeic .styles_icon-wrapper__e4REH {
+  background-color: rgba(72, 79, 243, 0.7);
+}
+
+.styles_list__MZU_q.styles_secondary__LUvdo {
+  color: var(--white);
+}
+
+.styles_list__MZU_q.styles_secondary__LUvdo a {
+  color: var(--white);
+}
+
+.styles_list__MZU_q.styles_secondary__LUvdo .styles_icon-wrapper__e4REH {
+  background-color: var(--brand-secondary);
+}
+
+.styles_list-item__8SLrK {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.styles_list-item__8SLrK a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.styles_icon-wrapper__e4REH {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.styles_icon-wrapper__e4REH svg {
+  width: 14px;
+  height: 14px;
+  color: var(--white);
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Backdrop/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_container__FBPsE {
+  position: fixed;
+  z-index: calc(infinity);
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles_container-paddings__qCM76 {
+  padding: 20px;
+}
+
+.styles_overlay__0JF_4 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.styles_overlay-action-disabled__GM_2d {
+  cursor: not-allowed;
+}
+
+.styles_content__QBepz {
+  position: relative;
+}
+
+.styles_sm-size__Leit6 {
+}
+
+.styles_md-size__DNEvp {
+  max-width: 425px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: var(--white);
+}
+
+.styles_xl-size__K6E_T {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+}
+
+.styles_close-btn__b9Jsf {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.styles_close-btn__b9Jsf svg {
+  width: 25px;
+  height: 25px;
+}
+
+.styles_overlay-enter__LaQBY {
+  opacity: 0;
+}
+
+.styles_overlay-enter-active__dcw26 {
+  transition: opacity 200ms;
+  opacity: 1;
+}
+
+.styles_overlay-exit__Qx1iG {
+  opacity: 1;
+}
+
+.styles_overlay-exit-active__HZL0N {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.styles_content-enter__0aSOx {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.styles_content-enter-active__DhZz_ {
+  transition: opacity 200ms, transform 200ms;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.styles_content-exit__zAT9d {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.styles_content-exit-active__EPW7j {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 200ms, transform 200ms;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Button/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.styles_btn__y9wN4 {
+  width: 100%;
+  flex-shrink: 0;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  border-radius: 16px;
+  transition: transform 0.1s, opacity 0.1s;
+}
+
+.styles_btn__y9wN4:not(:disabled):active {
+  transform: scale(0.99);
+}
+
+.styles_btn__y9wN4:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.styles_xs__Iwl0z {
+  max-width: 183px;
+  width: 100%;
+  min-height: 50px;
+  height: 50px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.styles_sm__Lmtx6 {
+  max-width: 252px;
+  min-height: 50px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.styles_md__6fIEB {
+  max-width: 365px;
+  height: 60px;
+}
+
+.styles_lg__ENnf_ {
+  max-width: 428px;
+  height: 60px;
+}
+
+.styles_xl__DhkeZ {
+  height: 69px;
+}
+
+.styles_primary__ErKpT {
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
+.styles_secondary__xbE_9 {
+}
+
+.styles_outline__2E7kV {
+  background-color: var(--white);
+  border: 1px solid var(--brand-secondary);
+  color: var(--brand-secondary);
+}
+
+.styles_gradient-primary__0guIL {
+  background: linear-gradient(96.83deg, #d6ff13 0%, #3dd4c3 101%);
+}
+
+.styles_gradient-secondary__rHtCh {
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+}
+
+.styles_gradient-tertiary__UNmNX {
+  color: var(--white);
+  background: linear-gradient(96.83deg, #313172 0%, #3e3eff 101%);
+}
+
+.styles_danger__1R76C {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.styles_loader__3xK9U {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation-name: styles_loader-primary__ixTnh;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.styles_gradient-primary__0guIL .styles_loader__3xK9U {
+  animation-name: styles_loader-secondary__lHSj0;
+}
+
+@keyframes styles_loader-primary__ixTnh {
+  0% {
+    background-color: var(--whiteAlpha350);
+    box-shadow: 16px 0 var(--whiteAlpha350), -16px 0 var(--white);
+  }
+  50% {
+    background-color: var(--white);
+    box-shadow: 16px 0 var(--whiteAlpha350), -16px 0 var(--whiteAlpha350);
+  }
+  100% {
+    background-color: var(--whiteAlpha350);
+    box-shadow: 16px 0 var(--white), -16px 0 var(--whiteAlpha350);
+  }
+}
+
+@keyframes styles_loader-secondary__lHSj0 {
+  0% {
+    background-color: var(--blackAlpha350);
+    box-shadow: 16px 0 var(--blackAlpha350), -16px 0 var(--black);
+  }
+  50% {
+    background-color: var(--black);
+    box-shadow: 16px 0 var(--blackAlpha350), -16px 0 var(--blackAlpha350);
+  }
+  100% {
+    background-color: var(--blackAlpha350);
+    box-shadow: 16px 0 var(--black), -16px 0 var(--blackAlpha350);
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Checkbox/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_label__sJdV3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.styles_label__sJdV3 svg {
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .styles_label__sJdV3 {
+    font-size: 14px;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/CurrencyInput/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__XingT {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_label__tWT1q {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_input__Jw4t9 {
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.styles_input__Jw4t9::placeholder {
+  color: #979797;
+}
+
+.styles_error-message__OusOV {
+  font-size: 10px;
+  color: var(--red);
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Dropdown/Layout/styles.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_container__50OU8 {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+.styles_overlay__4qCKv {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.styles_content__RBhVi {
+  top: 0;
+  left: calc(100vw - 286px);
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.styles_overlay-enter__w4dGe {
+  opacity: 0;
+}
+
+.styles_overlay-enter-active__eidcH {
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.styles_overlay-exit__4KkMO {
+  opacity: 1;
+}
+
+.styles_overlay-exit-active__Qhifl {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.styles_content-enter__MZjY_ {
+  transform: translateX(286px);
+  opacity: 0.5;
+}
+
+.styles_content-enter-active__McwnX {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.styles_content-exit__IumDW {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.styles_content-exit-active___tm5x {
+  transform: translateX(286px);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/FabUp/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.styles_fab__xX_BP {
+  position: fixed;
+  z-index: 1;
+  bottom: 92px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  color: var(--white);
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.06), 0px 2px 28px rgba(0, 0, 0, 0.16);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.1s ease, opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.styles_fab__visible__8fP38 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.styles_fab__xX_BP:not(:disabled):active {
+  transform: scale(0.9);
+}
+
+.styles_fab__xX_BP:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Input/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__NDS7F {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_label__QRTcA {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_input__ltqK5 {
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.styles_input__ltqK5::placeholder {
+  color: #979797;
+}
+
+.styles_error-message___ECYw {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--red);
+}
+
+.styles_note__o5mnF {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #828282;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/MaskInput/styles.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__HydTB {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_label__GnIPc {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_input__nWEKc {
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #979797;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.styles_input__nWEKc::placeholder {
+  color: #979797;
+}
+
+.styles_active__M8jip input {
+  color: var(--black);
+}
+
+.styles_error-message__p4kt_ {
+  font-size: 10px;
+  color: var(--red);
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/NextLink/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_link__qXhD2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 16px;
+}
+
+.styles_sm__jLkRY {
+  height: 52px;
+}
+
+.styles_md__pSADB {
+  max-width: 365px;
+  height: 60px;
+}
+
+.styles_lg__2Lw_H {
+  max-width: 482px;
+  height: 60px;
+}
+
+.styles_primary__O1DlS {
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
+.styles_secondary__q4zM1 {
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/OtpInput/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__mmLjP {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.styles_input__ll7iH {
+  width: 100%;
+  height: 80px;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--gray500);
+  border-radius: 16px;
+  text-align: center;
+  background-color: #f2f2f2f2;
+  outline: none;
+  border: none;
+}
+
+.styles_error__M_hce {
+  color: rgb(211, 47, 47);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/PasswordInput/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__3vEOO {
+  width: 100%;
+}
+
+.styles_input-wrapper__Lhrgw {
+  position: relative;
+}
+
+.styles_label__zvf8F {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_input___RxK_ {
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  padding-right: 55px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  outline: none;
+}
+
+.styles_input___RxK_::placeholder {
+  color: #979797;
+}
+
+.styles_icon-btn__CFnGH {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+}
+
+.styles_error-message___G2yY {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--red);
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/PhoneInput/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__970O7 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_label__ptErR {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_input__RkZm9 {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 8px;
+  outline: none;
+}
+
+.styles_primary-variant__aKeL2 {
+  height: 60px;
+  padding: 20px;
+  border: 1px solid #bbbbbb;
+}
+
+.styles_secondary-variant__PpN8v {
+  height: 50px;
+  padding: 10px 15px;
+  border: none;
+}
+
+.styles_input__RkZm9::placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  letter-spacing: normal;
+  color: #a59fac;
+}
+
+.styles_error-message__qPqXn {
+  font-size: 10px;
+  color: var(--red);
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Popover/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_content__T4Kpi {
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  right: calc((100vw - var(--content-width)) / 2);
+  background-color: var(--white);
+  border-radius: 2px;
+  box-shadow: 0 4px 32px rgb(0 0 0 / 16%);
+}
+
+.styles_animation-enter__Pcf21 {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.styles_animation-enter-active__rlVcE {
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.styles_animation-exit__FL1xJ {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.styles_animation-exit-active__pLkfX {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/ResendButton/styles.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.styles_btn__46UyF {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--brand-secondary);
+  text-align: center;
+}
+
+.styles_btn__46UyF:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.styles_btn__46UyF br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .styles_btn__46UyF br {
+    display: unset;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Select/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__4N5br {
+  width: 100%;
+}
+
+.styles_label__ahAer {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_error-message__IcCmF {
+  font-size: 10px;
+  color: var(--red);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/ui/Slider/slider.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.slider {
+  width: 100%;
+  height: 32px;
+}
+
+.slider-track {
+  top: 8px;
+  height: 16px;
+  border-radius: 30px;
+}
+
+.slider-track-primary {
+  background-color: #f2f2f2;
+}
+
+.slider-track-secondary {
+  background-color: #d9d9d9;
+}
+
+.slider-track-tertiary {
+  background-color: #7b7be5;
+}
+
+.slider-track-primary.slider-track-primary-0 {
+  background-color: #3dd4c3;
+}
+
+.slider-track-secondary.slider-track-secondary-0 {
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+}
+
+.slider-track-tertiary.slider-track-tertiary-0 {
+  background-color: #5656ff;
+}
+
+.slider-thumb {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  outline: none;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-thumb-primary {
+  background-color: var(--brand-secondary);
+}
+
+.slider-thumb-secondary {
+  background-color: var(--brand-secondary);
+}
+
+.slider-thumb-tertiary {
+  background-color: #5656ff;
+}
+
+.slider-thumb::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .adaptive-slider {
+    height: 22px;
+  }
+
+  .adaptive-slider .slider-track {
+    top: 6px;
+    height: 10px;
+  }
+
+  .adaptive-slider .slider-thumb {
+    width: 22px;
+    height: 22px;
+  }
+
+  .adaptive-slider .slider-thumb::after {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/ui/Spinner/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__zRwgv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles_wrapper__zRwgv.styles_full-size__vxuxI {
+  height: var(--content-height);
+}
+
+.styles_spinner__QT9ql {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #3dd4c3 94%, #0000) top/9px 9px
+      no-repeat,
+    conic-gradient(#0000 30%, #3dd4c3);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: styles_spinner-animation__Illmn 1s infinite linear;
+}
+
+@keyframes styles_spinner-animation__Illmn {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/CreditSlider/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__UaNE8 {
+  width: 100%;
+}
+
+.styles_primary-variant__gu4O4 {
+  color: var(--white);
+}
+
+/* secondary variant is for real calculator */
+
+.styles_secondary-variant__u4cDF {
+  color: var(--white);
+}
+
+.styles_secondary-variant__u4cDF .styles_output-sum__kM1wp {
+  color: var(--black);
+}
+
+.styles_secondary-variant__u4cDF .styles_output-sum__kM1wp p {
+  font-weight: 400;
+}
+
+.styles_secondary-variant__u4cDF .styles_output-sum__kM1wp span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.styles_secondary-variant__u4cDF .styles_output-range__I_RUb {
+  font-size: 12px;
+  color: #979797;
+}
+
+.styles_tertiary-variant__DyJC_ {
+  color: #5757b5;
+}
+
+.styles_output-sum__kM1wp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.styles_output-sum__kM1wp p {
+  font-weight: 500;
+}
+
+.styles_output-sum__kM1wp span {
+  font-weight: 600;
+}
+
+.styles_output-range__I_RUb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .styles_secondary-variant__u4cDF .styles_output-sum__kM1wp p {
+    font-size: 16px;
+  }
+
+  .styles_secondary-variant__u4cDF .styles_output-sum__kM1wp span {
+    font-size: 20px;
+  }
+
+  .styles_output-sum__kM1wp {
+    font-size: 14px;
+  }
+
+  .styles_output-range__I_RUb {
+    font-size: 12px;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/FinInput/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_input-wrapper__WGb74 input {
+  text-transform: uppercase;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/LangSwitch/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__nHlnp {
+  color: var(--white);
+  display: flex;
+  gap: 5px;
+}
+
+.styles_button__2KwXw {
+  padding: 0;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.styles_button__2KwXw.styles_active__WfL4F {
+  font-weight: 700;
+  color: var(--brand-primary);
+}
+
+.styles_button__2KwXw:disabled {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/OtpCode/styles.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.styles_form__2rgMV > div {
+  margin-bottom: 30px;
+}
+
+.styles_form__2rgMV > button {
+  margin: 0 auto;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/PostCover/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_image__w5HMK {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/ProgressBar/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__oVZTf {
+  max-width: 794px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.styles_text__MZG_3 {
+  font-size: 14px;
+}
+
+.styles_bar__uyJD2 {
+  position: relative;
+  width: 100%;
+  height: 11px;
+  margin-bottom: 17px;
+  background-color: #eeff9e;
+  border-radius: 20px;
+}
+
+.styles_progress__SvEUO {
+  height: 100%;
+  display: block;
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+  border-radius: 20px;
+}
+
+.styles_points-list__XI_tI {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.styles_point-item__zwmLU {
+  position: relative;
+  top: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  color: var(--white);
+  background-color: var(--brand-secondary);
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+
+.styles_dot__cyLPX {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .styles_bar__uyJD2 {
+    margin-bottom: 15px;
+  }
+
+  .styles_text__MZG_3 {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/PromoCode/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__pNEEN {
+  display: flex;
+  gap: 30px;
+}
+
+.styles_wrapper__pNEEN input {
+  text-align: center;
+}
+
+.styles_wrapper__pNEEN input::placeholder {
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .styles_wrapper__pNEEN {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/ScanButton/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_image-button__hnX4Z {
+  position: relative;
+  max-width: 386px;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.styles_image-button__hnX4Z svg {
+  position: absolute;
+  color: var(--white);
+  z-index: 1;
+}
+
+.styles_overlay__z8D7L {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .styles_image-button__hnX4Z {
+    max-width: 276px;
+    height: 276px;
+  }
+
+  .styles_image-button__hnX4Z img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Terminals/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_list__RJp6Q {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.styles_list-item__HqAov {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.styles_list-item__HqAov h3 {
+  margin-bottom: 15px;
+}
+
+.styles_list-item__HqAov p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.styles_list-item__HqAov a {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: var(--white);
+  border: 1px solid var(--brand-secondary);
+  color: var(--brand-secondary);
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .styles_list__RJp6Q {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_list__RJp6Q {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/react-quill/dist/quill.snow.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/*!
+ * Quill Editor v1.3.7
+ * https://quilljs.com/
+ * Copyright (c) 2014, Jason Chen
+ * Copyright (c) 2013, salesforce.com
+ */
+.ql-container {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}
+.ql-container.ql-disabled .ql-tooltip {
+  visibility: hidden;
+}
+.ql-container.ql-disabled .ql-editor ul[data-checked] > li::before {
+  pointer-events: none;
+}
+.ql-clipboard {
+  left: -100000px;
+  height: 1px;
+  overflow-y: hidden;
+  position: absolute;
+  top: 50%;
+}
+.ql-clipboard p {
+  margin: 0;
+  padding: 0;
+}
+.ql-editor {
+  box-sizing: border-box;
+  line-height: 1.42;
+  height: 100%;
+  outline: none;
+  overflow-y: auto;
+  padding: 12px 15px;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.ql-editor > * {
+  cursor: text;
+}
+.ql-editor p,
+.ql-editor ol,
+.ql-editor ul,
+.ql-editor pre,
+.ql-editor blockquote,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  margin: 0;
+  padding: 0;
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol,
+.ql-editor ul {
+  padding-left: 1.5em;
+}
+.ql-editor ol > li,
+.ql-editor ul > li {
+  list-style-type: none;
+}
+.ql-editor ul > li::before {
+  content: '\2022';
+}
+.ql-editor ul[data-checked=true],
+.ql-editor ul[data-checked=false] {
+  pointer-events: none;
+}
+.ql-editor ul[data-checked=true] > li *,
+.ql-editor ul[data-checked=false] > li * {
+  pointer-events: all;
+}
+.ql-editor ul[data-checked=true] > li::before,
+.ql-editor ul[data-checked=false] > li::before {
+  color: #777;
+  cursor: pointer;
+  pointer-events: all;
+}
+.ql-editor ul[data-checked=true] > li::before {
+  content: '\2611';
+}
+.ql-editor ul[data-checked=false] > li::before {
+  content: '\2610';
+}
+.ql-editor li::before {
+  display: inline-block;
+  white-space: nowrap;
+  width: 1.2em;
+}
+.ql-editor li:not(.ql-direction-rtl)::before {
+  margin-left: -1.5em;
+  margin-right: 0.3em;
+  text-align: right;
+}
+.ql-editor li.ql-direction-rtl::before {
+  margin-left: 0.3em;
+  margin-right: -1.5em;
+}
+.ql-editor ol li:not(.ql-direction-rtl),
+.ql-editor ul li:not(.ql-direction-rtl) {
+  padding-left: 1.5em;
+}
+.ql-editor ol li.ql-direction-rtl,
+.ql-editor ul li.ql-direction-rtl {
+  padding-right: 1.5em;
+}
+.ql-editor ol li {
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  counter-increment: list-0;
+}
+.ql-editor ol li:before {
+  content: counter(list-0, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-1 {
+  counter-increment: list-1;
+}
+.ql-editor ol li.ql-indent-1:before {
+  content: counter(list-1, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-1 {
+  counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-2 {
+  counter-increment: list-2;
+}
+.ql-editor ol li.ql-indent-2:before {
+  content: counter(list-2, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-2 {
+  counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-3 {
+  counter-increment: list-3;
+}
+.ql-editor ol li.ql-indent-3:before {
+  content: counter(list-3, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-3 {
+  counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-4 {
+  counter-increment: list-4;
+}
+.ql-editor ol li.ql-indent-4:before {
+  content: counter(list-4, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-4 {
+  counter-reset: list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-5 {
+  counter-increment: list-5;
+}
+.ql-editor ol li.ql-indent-5:before {
+  content: counter(list-5, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-5 {
+  counter-reset: list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-6 {
+  counter-increment: list-6;
+}
+.ql-editor ol li.ql-indent-6:before {
+  content: counter(list-6, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-6 {
+  counter-reset: list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-7 {
+  counter-increment: list-7;
+}
+.ql-editor ol li.ql-indent-7:before {
+  content: counter(list-7, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-7 {
+  counter-reset: list-8 list-9;
+}
+.ql-editor ol li.ql-indent-8 {
+  counter-increment: list-8;
+}
+.ql-editor ol li.ql-indent-8:before {
+  content: counter(list-8, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-8 {
+  counter-reset: list-9;
+}
+.ql-editor ol li.ql-indent-9 {
+  counter-increment: list-9;
+}
+.ql-editor ol li.ql-indent-9:before {
+  content: counter(list-9, decimal) '. ';
+}
+.ql-editor .ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 3em;
+}
+.ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 4.5em;
+}
+.ql-editor .ql-indent-1.ql-direction-rtl.ql-align-right {
+  padding-right: 3em;
+}
+.ql-editor li.ql-indent-1.ql-direction-rtl.ql-align-right {
+  padding-right: 4.5em;
+}
+.ql-editor .ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 6em;
+}
+.ql-editor li.ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 7.5em;
+}
+.ql-editor .ql-indent-2.ql-direction-rtl.ql-align-right {
+  padding-right: 6em;
+}
+.ql-editor li.ql-indent-2.ql-direction-rtl.ql-align-right {
+  padding-right: 7.5em;
+}
+.ql-editor .ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 9em;
+}
+.ql-editor li.ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 10.5em;
+}
+.ql-editor .ql-indent-3.ql-direction-rtl.ql-align-right {
+  padding-right: 9em;
+}
+.ql-editor li.ql-indent-3.ql-direction-rtl.ql-align-right {
+  padding-right: 10.5em;
+}
+.ql-editor .ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 12em;
+}
+.ql-editor li.ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 13.5em;
+}
+.ql-editor .ql-indent-4.ql-direction-rtl.ql-align-right {
+  padding-right: 12em;
+}
+.ql-editor li.ql-indent-4.ql-direction-rtl.ql-align-right {
+  padding-right: 13.5em;
+}
+.ql-editor .ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 15em;
+}
+.ql-editor li.ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 16.5em;
+}
+.ql-editor .ql-indent-5.ql-direction-rtl.ql-align-right {
+  padding-right: 15em;
+}
+.ql-editor li.ql-indent-5.ql-direction-rtl.ql-align-right {
+  padding-right: 16.5em;
+}
+.ql-editor .ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 18em;
+}
+.ql-editor li.ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 19.5em;
+}
+.ql-editor .ql-indent-6.ql-direction-rtl.ql-align-right {
+  padding-right: 18em;
+}
+.ql-editor li.ql-indent-6.ql-direction-rtl.ql-align-right {
+  padding-right: 19.5em;
+}
+.ql-editor .ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 21em;
+}
+.ql-editor li.ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 22.5em;
+}
+.ql-editor .ql-indent-7.ql-direction-rtl.ql-align-right {
+  padding-right: 21em;
+}
+.ql-editor li.ql-indent-7.ql-direction-rtl.ql-align-right {
+  padding-right: 22.5em;
+}
+.ql-editor .ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 24em;
+}
+.ql-editor li.ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 25.5em;
+}
+.ql-editor .ql-indent-8.ql-direction-rtl.ql-align-right {
+  padding-right: 24em;
+}
+.ql-editor li.ql-indent-8.ql-direction-rtl.ql-align-right {
+  padding-right: 25.5em;
+}
+.ql-editor .ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 27em;
+}
+.ql-editor li.ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 28.5em;
+}
+.ql-editor .ql-indent-9.ql-direction-rtl.ql-align-right {
+  padding-right: 27em;
+}
+.ql-editor li.ql-indent-9.ql-direction-rtl.ql-align-right {
+  padding-right: 28.5em;
+}
+.ql-editor .ql-video {
+  display: block;
+  max-width: 100%;
+}
+.ql-editor .ql-video.ql-align-center {
+  margin: 0 auto;
+}
+.ql-editor .ql-video.ql-align-right {
+  margin: 0 0 0 auto;
+}
+.ql-editor .ql-bg-black {
+  background-color: #000;
+}
+.ql-editor .ql-bg-red {
+  background-color: #e60000;
+}
+.ql-editor .ql-bg-orange {
+  background-color: #f90;
+}
+.ql-editor .ql-bg-yellow {
+  background-color: #ff0;
+}
+.ql-editor .ql-bg-green {
+  background-color: #008a00;
+}
+.ql-editor .ql-bg-blue {
+  background-color: #06c;
+}
+.ql-editor .ql-bg-purple {
+  background-color: #93f;
+}
+.ql-editor .ql-color-white {
+  color: #fff;
+}
+.ql-editor .ql-color-red {
+  color: #e60000;
+}
+.ql-editor .ql-color-orange {
+  color: #f90;
+}
+.ql-editor .ql-color-yellow {
+  color: #ff0;
+}
+.ql-editor .ql-color-green {
+  color: #008a00;
+}
+.ql-editor .ql-color-blue {
+  color: #06c;
+}
+.ql-editor .ql-color-purple {
+  color: #93f;
+}
+.ql-editor .ql-font-serif {
+  font-family: Georgia, Times New Roman, serif;
+}
+.ql-editor .ql-font-monospace {
+  font-family: Monaco, Courier New, monospace;
+}
+.ql-editor .ql-size-small {
+  font-size: 0.75em;
+}
+.ql-editor .ql-size-large {
+  font-size: 1.5em;
+}
+.ql-editor .ql-size-huge {
+  font-size: 2.5em;
+}
+.ql-editor .ql-direction-rtl {
+  direction: rtl;
+  text-align: inherit;
+}
+.ql-editor .ql-align-center {
+  text-align: center;
+}
+.ql-editor .ql-align-justify {
+  text-align: justify;
+}
+.ql-editor .ql-align-right {
+  text-align: right;
+}
+.ql-editor.ql-blank::before {
+  color: rgba(0,0,0,0.6);
+  content: attr(data-placeholder);
+  font-style: italic;
+  left: 15px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+}
+.ql-snow.ql-toolbar:after,
+.ql-snow .ql-toolbar:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  padding: 3px 5px;
+  width: 28px;
+}
+.ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+  float: left;
+  height: 100%;
+}
+.ql-snow.ql-toolbar button:active:hover,
+.ql-snow .ql-toolbar button:active:hover {
+  outline: none;
+}
+.ql-snow.ql-toolbar input.ql-image[type=file],
+.ql-snow .ql-toolbar input.ql-image[type=file] {
+  display: none;
+}
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #06c;
+}
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
+  fill: #06c;
+}
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke,
+.ql-snow.ql-toolbar button:focus .ql-stroke,
+.ql-snow .ql-toolbar button:focus .ql-stroke,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow.ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow .ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
+  stroke: #06c;
+}
+@media (pointer: coarse) {
+  .ql-snow.ql-toolbar button:hover:not(.ql-active),
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) {
+    color: #444;
+  }
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-fill,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-fill,
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill {
+    fill: #444;
+  }
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter {
+    stroke: #444;
+  }
+}
+.ql-snow {
+  box-sizing: border-box;
+}
+.ql-snow * {
+  box-sizing: border-box;
+}
+.ql-snow .ql-hidden {
+  display: none;
+}
+.ql-snow .ql-out-bottom,
+.ql-snow .ql-out-top {
+  visibility: hidden;
+}
+.ql-snow .ql-tooltip {
+  position: absolute;
+  transform: translateY(10px);
+}
+.ql-snow .ql-tooltip a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.ql-snow .ql-tooltip.ql-flip {
+  transform: translateY(-10px);
+}
+.ql-snow .ql-formats {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ql-snow .ql-formats:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.ql-snow .ql-stroke {
+  fill: none;
+  stroke: #444;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+.ql-snow .ql-stroke-miter {
+  fill: none;
+  stroke: #444;
+  stroke-miterlimit: 10;
+  stroke-width: 2;
+}
+.ql-snow .ql-fill,
+.ql-snow .ql-stroke.ql-fill {
+  fill: #444;
+}
+.ql-snow .ql-empty {
+  fill: none;
+}
+.ql-snow .ql-even {
+  fill-rule: evenodd;
+}
+.ql-snow .ql-thin,
+.ql-snow .ql-stroke.ql-thin {
+  stroke-width: 1;
+}
+.ql-snow .ql-transparent {
+  opacity: 0.4;
+}
+.ql-snow .ql-direction svg:last-child {
+  display: none;
+}
+.ql-snow .ql-direction.ql-active svg:last-child {
+  display: inline;
+}
+.ql-snow .ql-direction.ql-active svg:first-child {
+  display: none;
+}
+.ql-snow .ql-editor h1 {
+  font-size: 2em;
+}
+.ql-snow .ql-editor h2 {
+  font-size: 1.5em;
+}
+.ql-snow .ql-editor h3 {
+  font-size: 1.17em;
+}
+.ql-snow .ql-editor h4 {
+  font-size: 1em;
+}
+.ql-snow .ql-editor h5 {
+  font-size: 0.83em;
+}
+.ql-snow .ql-editor h6 {
+  font-size: 0.67em;
+}
+.ql-snow .ql-editor a {
+  text-decoration: underline;
+}
+.ql-snow .ql-editor blockquote {
+  border-left: 4px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 16px;
+}
+.ql-snow .ql-editor code,
+.ql-snow .ql-editor pre {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+.ql-snow .ql-editor pre {
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.ql-snow .ql-editor code {
+  font-size: 85%;
+  padding: 2px 4px;
+}
+.ql-snow .ql-editor pre.ql-syntax {
+  background-color: #23241f;
+  color: #f8f8f2;
+  overflow: visible;
+}
+.ql-snow .ql-editor img {
+  max-width: 100%;
+}
+.ql-snow .ql-picker {
+  color: #444;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+  height: 24px;
+  position: relative;
+  vertical-align: middle;
+}
+.ql-snow .ql-picker-label {
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 2px;
+  position: relative;
+  width: 100%;
+}
+.ql-snow .ql-picker-label::before {
+  display: inline-block;
+  line-height: 22px;
+}
+.ql-snow .ql-picker-options {
+  background-color: #fff;
+  display: none;
+  min-width: 100%;
+  padding: 4px 8px;
+  position: absolute;
+  white-space: nowrap;
+}
+.ql-snow .ql-picker-options .ql-picker-item {
+  cursor: pointer;
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  color: #ccc;
+  z-index: 2;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-fill {
+  fill: #ccc;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+  stroke: #ccc;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  display: block;
+  margin-top: -1px;
+  top: 100%;
+  z-index: 1;
+}
+.ql-snow .ql-color-picker,
+.ql-snow .ql-icon-picker {
+  width: 28px;
+}
+.ql-snow .ql-color-picker .ql-picker-label,
+.ql-snow .ql-icon-picker .ql-picker-label {
+  padding: 2px 4px;
+}
+.ql-snow .ql-color-picker .ql-picker-label svg,
+.ql-snow .ql-icon-picker .ql-picker-label svg {
+  right: 4px;
+}
+.ql-snow .ql-icon-picker .ql-picker-options {
+  padding: 4px 0px;
+}
+.ql-snow .ql-icon-picker .ql-picker-item {
+  height: 24px;
+  width: 24px;
+  padding: 2px 4px;
+}
+.ql-snow .ql-color-picker .ql-picker-options {
+  padding: 3px 5px;
+  width: 152px;
+}
+.ql-snow .ql-color-picker .ql-picker-item {
+  border: 1px solid transparent;
+  float: left;
+  height: 16px;
+  margin: 2px;
+  padding: 0px;
+  width: 16px;
+}
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  position: absolute;
+  margin-top: -9px;
+  right: 0;
+  top: 50%;
+  width: 18px;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-label]:not([data-label=''])::before {
+  content: attr(data-label);
+}
+.ql-snow .ql-picker.ql-header {
+  width: 98px;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item::before {
+  content: 'Normal';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+  content: 'Heading 1';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+  content: 'Heading 2';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+  content: 'Heading 3';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+  content: 'Heading 4';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+  content: 'Heading 5';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+  content: 'Heading 6';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+  font-size: 2em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+  font-size: 1.5em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+  font-size: 1.17em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+  font-size: 1em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+  font-size: 0.83em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+  font-size: 0.67em;
+}
+.ql-snow .ql-picker.ql-font {
+  width: 108px;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+  content: 'Sans Serif';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=serif]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+  content: 'Serif';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=monospace]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+  content: 'Monospace';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+  font-family: Georgia, Times New Roman, serif;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+  font-family: Monaco, Courier New, monospace;
+}
+.ql-snow .ql-picker.ql-size {
+  width: 98px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item::before {
+  content: 'Normal';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+  content: 'Small';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+  content: 'Large';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+  content: 'Huge';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+  font-size: 10px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+  font-size: 18px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+  font-size: 32px;
+}
+.ql-snow .ql-color-picker.ql-background .ql-picker-item {
+  background-color: #fff;
+}
+.ql-snow .ql-color-picker.ql-color .ql-picker-item {
+  background-color: #000;
+}
+.ql-toolbar.ql-snow {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 8px;
+}
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 15px;
+}
+.ql-toolbar.ql-snow .ql-picker-label {
+  border: 1px solid transparent;
+}
+.ql-toolbar.ql-snow .ql-picker-options {
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0.2) 0 2px 8px;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  border-color: #ccc;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  border-color: #ccc;
+}
+.ql-toolbar.ql-snow .ql-color-picker .ql-picker-item.ql-selected,
+.ql-toolbar.ql-snow .ql-color-picker .ql-picker-item:hover {
+  border-color: #000;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 0px;
+}
+.ql-snow .ql-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ddd;
+  color: #444;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+.ql-snow .ql-tooltip::before {
+  content: "Visit URL:";
+  line-height: 26px;
+  margin-right: 8px;
+}
+.ql-snow .ql-tooltip input[type=text] {
+  display: none;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  height: 26px;
+  margin: 0px;
+  padding: 3px 5px;
+  width: 170px;
+}
+.ql-snow .ql-tooltip a.ql-preview {
+  display: inline-block;
+  max-width: 200px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+.ql-snow .ql-tooltip a.ql-action::after {
+  border-right: 1px solid #ccc;
+  content: 'Edit';
+  margin-left: 16px;
+  padding-right: 8px;
+}
+.ql-snow .ql-tooltip a.ql-remove::before {
+  content: 'Remove';
+  margin-left: 8px;
+}
+.ql-snow .ql-tooltip a {
+  line-height: 26px;
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-preview,
+.ql-snow .ql-tooltip.ql-editing a.ql-remove {
+  display: none;
+}
+.ql-snow .ql-tooltip.ql-editing input[type=text] {
+  display: inline-block;
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+  border-right: 0px;
+  content: 'Save';
+  padding-right: 0px;
+}
+.ql-snow .ql-tooltip[data-mode=link]::before {
+  content: "Enter link:";
+}
+.ql-snow .ql-tooltip[data-mode=formula]::before {
+  content: "Enter formula:";
+}
+.ql-snow .ql-tooltip[data-mode=video]::before {
+  content: "Enter video:";
+}
+.ql-snow a {
+  color: #06c;
+}
+.ql-container.ql-snow {
+  border: 1px solid #ccc;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/Faq/styles.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__c8gxT {
+  padding: 60px 100px 120px 100px;
+}
+
+.styles_wrapper__5favE {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.styles_title__aRPcW {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.styles_list__oq3_3 > li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.styles_description__gXOW2 {
+  line-height: 1.8;
+}
+
+.styles_description__gXOW2 > ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.styles_table-wrapper__Bk_hH {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.styles_table__K_xdY {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: center;
+}
+
+.styles_table__K_xdY th {
+  font-weight: 600;
+  background-color: var(--brand-secondary);
+}
+
+.styles_table__K_xdY td {
+  background-color: var(--brand-primary);
+}
+
+.styles_table__K_xdY th,
+.styles_table__K_xdY td {
+  padding: 10px;
+  color: var(--black);
+  border: 2px solid var(--white);
+}
+
+.styles_table__K_xdY tr td:first-child {
+  text-wrap: nowrap;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__c8gxT {
+    padding: 40px 50px 80px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__c8gxT {
+    padding: 40px 20px 80px 20px;
+  }
+
+  .styles_title__aRPcW {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .styles_list__oq3_3 > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .styles_description__gXOW2 {
+    font-size: 14px;
+  }
+
+  .styles_description__gXOW2 > h3 {
+    font-size: 14px;
+  }
+
+  .styles_table__K_xdY th,
+  .styles_table__K_xdY td {
+    font-size: 14px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/HowToGet/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__2mSKN {
+  padding: 100px;
+}
+
+.styles_wrapper__fThlg {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_title__6__0C {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.styles_text__N2GMS {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.styles_list__mD9SJ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  gap: 40px;
+}
+
+.styles_list-item__Zgb_h {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 4px 4px 6px 0px #00000026;
+  background-color: #f8f8f8;
+}
+
+.styles_image-wrapper__DH99E {
+  flex-shrink: 0;
+}
+
+.styles_sub-title__nPLx3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.styles_sub-text__BSqcd {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--brand-secondary);
+}
+
+.styles_sub-description-wrapper__Nzniw {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.styles_sub-description-wrapper__Nzniw span {
+  color: var(--brand-secondary);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.styles_sub-description__zJZBj {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__2mSKN {
+    padding: 50px;
+  }
+
+  .styles_list__mD9SJ {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__2mSKN {
+    padding: 20px 20px 50px 20px;
+  }
+
+  .styles_title__6__0C {
+    font-size: 24px;
+  }
+
+  .styles_text__N2GMS {
+    font-size: 14px;
+  }
+
+  .styles_list-item__Zgb_h {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .styles_sub-title__nPLx3 {
+    font-size: 16px;
+  }
+
+  .styles_sub-text__BSqcd {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .styles_image-wrapper__DH99E {
+  }
+
+  .styles_image-wrapper__DH99E img {
+    width: 71px;
+    height: 71px;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/modules/LeadDailyCalculator/components/CreditTerms/styles.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__zXRFp {
+  color: var(--white);
+}
+
+.styles_list__Wwkl1 {
+  margin: 15px 0;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+}
+
+.styles_list__Wwkl1 li {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.styles_list__Wwkl1 li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.styles_list__Wwkl1 li span {
+  font-weight: 600;
+}
+
+.styles_table__7FxAm {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-gap: 5px;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.styles_tc__Pg6xf {
+  font-size: 12px;
+}
+
+.styles_tc__Pg6xf:first-child span:not(:first-child) {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.styles_tc__Pg6xf {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.styles_tc__Pg6xf span:first-child {
+  min-height: 3lh;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.styles_note__zv6UT {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #d6ff13;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 430px) {
+  .styles_tc__Pg6xf span:first-child {
+    min-height: 4lh;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/modules/LeadDailyCalculator/components/LeadDailyCalculator/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__yc4cm {
+  width: 100%;
+  max-width: 488px;
+  padding: 30px;
+  background-color: #484ff3;
+  border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+  .styles_wrapper__yc4cm {
+    padding: 30px 20px;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/Lead/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_loading-placeholder__i9AXg {
+  height: calc(100svh - 80px);
+  background-color: #53a296;
+}
+
+.styles_section__NQ9j_ {
+  position: relative;
+}
+
+.styles_wrapper__oEH_2 {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.styles_alert__r3P5n {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.styles_alert__r3P5n p {
+  padding: 10px;
+  font-weight: 700;
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  border-radius: 12px;
+}
+
+.styles_alert__r3P5n a {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.styles_daily-calculator__Yi3uj {
+  align-self: flex-end;
+  z-index: 1;
+}
+
+.styles_daily-calculator__Yi3uj > div {
+  border-top-left-radius: 0;
+}
+
+.styles_tab-button__SpZQJ {
+  min-width: 214px;
+  padding: 15px 30px 10px 30px;
+  border-radius: 24px 24px 0 0;
+  font-weight: 600;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.styles_tab-button-daily__czp2k {
+  color: #e3ff9f;
+  background-color: #484ff3;
+}
+
+@media (max-width: 1200px) {
+  .styles_wrapper__oEH_2 {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_wrapper__oEH_2 {
+    position: static;
+    justify-content: center;
+    padding: 30px 20px;
+    background-color: #53a296;
+  }
+
+  .styles_tabs__bVuaa {
+    justify-content: space-between;
+  }
+
+  .styles_tabs__bVuaa .styles_tab-button__SpZQJ {
+    flex: 1 1;
+    min-width: auto;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/RepaymentMethods/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__6Z2lR {
+  padding: 120px 100px 60px 100px;
+}
+
+.styles_wrapper__Tez1H {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_title__07tnO {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.styles_tab-content__6iX35 {
+  display: flex;
+  gap: 100px;
+  padding: 50px 100px 40px 100px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #f7ffd3 0%, #fcffee 100%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.styles_tab-content__6iX35 h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.styles_tab-content__6iX35 ul {
+  font-size: 14px;
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+.styles_tab-content__6iX35 ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.styles_tab-content__6iX35 ul li a {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.styles_tabs__YQP8Q {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.styles_tab__Gyvoh {
+  flex: 1 1;
+  display: flex;
+  padding: 24px 30px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-weight: 600;
+  border-radius: 24px;
+  background: linear-gradient(
+    95.4deg,
+    rgba(86, 255, 236, 0.5) 0%,
+    rgba(22, 169, 152, 0.5) 100%
+  );
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.styles_active-tab__arcHK {
+  background: linear-gradient(95.4deg, #d6ff13 0%, #add100 100%);
+}
+
+.styles_tab__Gyvoh span {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: var(--white);
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+}
+
+.styles_tab__Gyvoh p {
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__6Z2lR {
+    padding: 80px 50px 40px 50px;
+  }
+
+  .styles_tab-content__6iX35 {
+    padding: 40px 50px;
+    gap: 50px;
+  }
+
+  .styles_tab-content__6iX35 img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .styles_tab__Gyvoh {
+    padding: 24px;
+  }
+
+  .styles_tab__Gyvoh span {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__6Z2lR {
+    padding: 80px 20px 40px 20px;
+  }
+
+  .styles_title__07tnO {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .styles_tab-content__6iX35 {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .styles_tab-content__6iX35 img {
+    margin: 0 auto;
+  }
+
+  .styles_tab-content__6iX35 h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .styles_tabs__YQP8Q {
+    flex-direction: column;
+  }
+
+  .styles_tab__Gyvoh {
+    padding: 20px 30px;
+  }
+
+  .styles_tab__Gyvoh span {
+    display: flex;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/components/TerminalsInfo/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__vNBNF {
+  padding: 100px;
+  background-color: #f2f2f2;
+}
+
+.styles_wrapper__jc4YI {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.styles_title__LGeHa {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .styles_section__vNBNF {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__vNBNF {
+    padding: 30px 20px;
+  }
+
+  .styles_title__LGeHa {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/modules/LeadSlider/components/LeadSlider/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__JVkfH {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.styles_wrapper__JVkfH > div:first-child,
+.styles_wrapper__JVkfH > div:last-child {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles_sum__ax9XL {
+  margin-top: 5px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.styles_divider___t_KT {
+  background-color: var(--white);
+  margin: 0 50px;
+  width: 1px;
+}
+
+@media (max-width: 768px) {
+  .styles_wrapper__JVkfH {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .styles_divider___t_KT {
+    display: none;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/modules/LeadSlider/components/Container/styles.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_section__7IOIm {
+  background-color: #484ff3;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transform: translateY(250px);
+  transition: transform 0.5s ease-out;
+  padding: 30px 100px;
+}
+
+.styles_visible__5OC8o {
+  transform: translateY(0);
+}
+
+@media (max-width: 1200px) {
+  .styles_section__7IOIm {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styles_section__7IOIm {
+    padding: 20px;
+  }
+}
+

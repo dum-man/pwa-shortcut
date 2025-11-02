@@ -1,0 +1,20 @@
+.wrapper {
+  color: var(--white);
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  padding: 0;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.button.active {
+  font-weight: 700;
+  color: var(--brand-primary);
+}
+
+.button:disabled {
+  user-select: none;
+}

@@ -1,0 +1,17 @@
+.camera-wrapper {
+  margin-bottom: 20px;
+}
+
+.camera {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 430px) {
+  .camera-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

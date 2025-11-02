@@ -1,0 +1,30 @@
+.fab {
+  position: fixed;
+  z-index: 1;
+  bottom: 92px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  color: var(--white);
+  border-radius: 50%;
+  background-color: var(--brand-secondary);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.06), 0px 2px 28px rgba(0, 0, 0, 0.16);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.1s ease, opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fab__visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fab:not(:disabled):active {
+  transform: scale(0.9);
+}
+
+.fab:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

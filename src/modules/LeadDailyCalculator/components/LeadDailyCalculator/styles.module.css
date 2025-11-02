@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  max-width: 488px;
+  padding: 30px;
+  background-color: #484ff3;
+  border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 30px 20px;
+  }
+}

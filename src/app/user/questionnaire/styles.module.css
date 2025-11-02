@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 30px 20px;
+  }
+}

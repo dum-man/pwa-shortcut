@@ -1,0 +1,12 @@
+.wrapper svg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.wrapper p {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}

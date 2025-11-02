@@ -1,0 +1,35 @@
+.wrapper {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.wrapper h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wrapper p {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  .wrapper h2 {
+    font-size: 16px;
+  }
+}

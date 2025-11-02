@@ -1,0 +1,76 @@
+.wrapper {
+  width: 100%;
+}
+
+.primary-variant {
+  color: var(--white);
+}
+
+/* secondary variant is for real calculator */
+
+.secondary-variant {
+  color: var(--white);
+}
+
+.secondary-variant .output-sum {
+  color: var(--black);
+}
+
+.secondary-variant .output-sum p {
+  font-weight: 400;
+}
+
+.secondary-variant .output-sum span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.secondary-variant .output-range {
+  font-size: 12px;
+  color: #979797;
+}
+
+.tertiary-variant {
+  color: #5757b5;
+}
+
+.output-sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.output-sum p {
+  font-weight: 500;
+}
+
+.output-sum span {
+  font-weight: 600;
+}
+
+.output-range {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .secondary-variant .output-sum p {
+    font-size: 16px;
+  }
+
+  .secondary-variant .output-sum span {
+    font-size: 20px;
+  }
+
+  .output-sum {
+    font-size: 14px;
+  }
+
+  .output-range {
+    font-size: 12px;
+  }
+}

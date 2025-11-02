@@ -1,0 +1,35 @@
+.list-item {
+  display: flex;
+}
+
+.list-item a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 236, 241);
+  border-radius: 8px;
+  color: var(--black);
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}
+
+.excerpt {
+  margin-bottom: auto;
+}
+
+.date {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+}

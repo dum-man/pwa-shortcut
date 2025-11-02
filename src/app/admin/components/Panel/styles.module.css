@@ -1,0 +1,7 @@
+.list-item {
+  border-radius: 8px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 15px;
+}

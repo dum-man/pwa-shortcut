@@ -1,0 +1,27 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--white);
+}
+
+.list a {
+  font-size: 14px;
+  color: var(--white);
+}
+
+.list h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .list h3 {
+    margin-bottom: 5px;
+  }
+}

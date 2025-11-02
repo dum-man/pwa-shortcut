@@ -1,0 +1,14 @@
+.button {
+  display: none;
+  margin-left: auto;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .button {
+    display: flex;
+  }
+}

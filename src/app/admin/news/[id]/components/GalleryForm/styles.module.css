@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.list-item {
+  display: flex;
+  gap: 5px;
+}
+
+.list-item button {
+  padding: 0;
+}
+
+.list-item button:disabled {
+  cursor: not-allowed;
+}

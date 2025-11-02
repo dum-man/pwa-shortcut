@@ -1,0 +1,114 @@
+.wrapper {
+  min-height: 80svh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: linear-gradient(169.55deg, #1bd7c1 0%, #007467 100%);
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+
+.logo-link {
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.username {
+  margin-bottom: 15px;
+  text-align: right;
+  font-weight: 700;
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.user-list {
+  margin-bottom: 20px;
+}
+
+.user-list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.user-list a,
+.user-list button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+}
+
+.icon-wrapper {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.nav-list {
+  text-align: right;
+}
+
+.nav-list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.nav-list a {
+  color: var(--white);
+}
+
+.divider {
+  width: 60%;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--white);
+}
+
+.button {
+  margin-left: auto;
+  color: var(--white);
+  padding: 0;
+  text-align: right;
+}
+
+.login-button {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.register-button {
+  margin-bottom: 20px;
+}
+
+.gradient-button {
+  font-weight: 700;
+  background: linear-gradient(
+    95.4deg,
+    #d6ff13 0%,
+    #b2d703 86.88%,
+    #add100 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .apk-link {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--white);
+  text-align: right;
+} */

@@ -1,0 +1,27 @@
+.details {
+  background-color: #f2f2f2;
+  border-radius: 16px;
+}
+
+.summary {
+  padding: 25px 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.content > * {
+  padding: 0 40px 40px 40px;
+}
+
+@media (max-width: 768px) {
+  .summary {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .content > * {
+    padding: 0 20px 20px 20px;
+  }
+}

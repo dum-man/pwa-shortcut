@@ -1,0 +1,33 @@
+.section {
+  padding: 100px;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 30px 20px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+}

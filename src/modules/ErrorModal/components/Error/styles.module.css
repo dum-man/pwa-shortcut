@@ -1,0 +1,16 @@
+.wrapper h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wrapper p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.method {
+  font-size: 12px;
+  color: #aaaaaa;
+}
