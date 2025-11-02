@@ -1,14 +1,21 @@
 "use client";
 
-import { useIsAndroid } from "@/hooks";
-import AndroidComponent from "./AndroidComponent";
+import { useEffect } from "react";
+
+import { setDeferredPrompt } from "@/store/slices/appSlice";
+import { BeforeInstallPromptEvent } from "@/types/app";
 
 const Container = () => {
-  const isAndroid = useIsAndroid();
+  useEffect(() => {
+    const handler = (e: Event) => {
+      e.preventDefault();
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
+    };
 
-  if (isAndroid) {
-    return <AndroidComponent />;
-  }
+    window.addEventListener("beforeinstallprompt", handler);
+
+    return () => window.removeEventListener("beforeinstallprompt", handler);
+  }, []);
 
   return null;
 };
