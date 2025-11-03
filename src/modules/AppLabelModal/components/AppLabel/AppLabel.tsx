@@ -18,7 +18,7 @@ const AppLabel = () => {
 
   return (
     <div>
-      <p className={styles.text}>{t("text.1")}</p>
+      <p className={styles.text}>test 1</p>
       <Button size="lg" onClick={handleInstallClick}>
         {t("action.1")}
       </Button>
