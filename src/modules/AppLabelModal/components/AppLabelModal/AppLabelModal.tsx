@@ -1,48 +1,93 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { SomeComponent } from "@/components";
-import { useAppDispatch, useAppSelector, useIsAndroid } from "@/hooks";
+import { useAppDispatch } from "@/hooks";
 import { setAppLabelModal } from "@/store/slices/appSlice";
 
-import AppLabel from "../AppLabel/AppLabel";
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+}
+
 
 const AppLabelModal = () => {
-  const isAndroid = useIsAndroid();
-
-  const pathname = usePathname();
 
   const dispatch = useAppDispatch();
 
-  const { isOpen } = useAppSelector((state) => state.app.appLabelModal);
 
   const setAppLabelModalClose = () => {
     dispatch(setAppLabelModal({ isOpen: false }));
   };
 
+  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [isIos, setIsIos] = useState(false);
+  const [isInStandaloneMode, setIsInStandaloneMode] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
-    if (
-      pathname === "/" &&
-      isAndroid
-    ) {
-      setTimeout(() => {
-        dispatch(setAppLabelModal({ isOpen: true }));
-      }, 5000);
+    const handler = (e: Event) => {
+      e.preventDefault();
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
+      setIsVisible(true);
+    };
+
+    window.addEventListener("beforeinstallprompt", handler);
+
+    // Определяем iOS и standalone режим
+    const ua = window.navigator.userAgent.toLowerCase();
+    const isIosDevice = /iphone|ipad|ipod/.test(ua);
+    const isStandalone = (window.navigator as any).standalone === true;
+
+    setIsIos(isIosDevice);
+    setIsInStandaloneMode(isStandalone);
+
+    return () => window.removeEventListener("beforeinstallprompt", handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+
+    deferredPrompt.prompt();
+    const choice = await deferredPrompt.userChoice;
+
+    if (choice.outcome === "accepted") {
+      console.log("PWA установка подтверждена пользователем ✅");
+    } else {
+      console.log("Пользователь отклонил установку ❌");
     }
-  }, [pathname, dispatch, isAndroid]);
+
+    setDeferredPrompt(null);
+    setIsVisible(false);
+  };
 
   return (
     <SomeComponent
-      isOpen={isOpen}
+      isOpen={true}
       contentSize="md"
       closeOnClickOutside
       withOverlay
       displayCloseBtn
       onClose={setAppLabelModalClose}
     >
-      <AppLabel />
+      {(isIos && !isInStandaloneMode) &&
+        (
+          <div className="p-4 bg-yellow-100 border border-yellow-400 rounded-lg text-sm text-gray-800">
+            Чтобы установить приложение, нажмите <b>Поделиться</b> → <b>На экран «Домой»</b>
+          </div>
+        )
+      }
+
+      {isVisible && (
+        <button
+          onClick={handleInstallClick}
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
+        >
+          Установить приложение
+        </button>
+      )}
+      <p>PWA</p>
     </SomeComponent>
   );
 };
