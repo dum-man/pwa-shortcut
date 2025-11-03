@@ -70,7 +70,6 @@ export const generateMetadata = async ({
       index: process.env.NEXT_PUBLIC_ENV === "test" ? false : true,
       follow: process.env.NEXT_PUBLIC_ENV === "test" ? false : true,
     },
-    manifest: "/manifest.json",
   };
 };
 
