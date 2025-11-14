@@ -7,6 +7,7 @@ import { injectStore } from "@/store/injectStore";
 import { setIsAdminAuth } from "@/store/slices/adminSlice";
 import {
   getAppConfig,
+  setDeferredPrompt,
   setErrorModal,
   setInfoModal,
 } from "@/store/slices/appSlice";
@@ -17,7 +18,7 @@ import {
   getUserPhoto,
 } from "@/store/slices/userSlice";
 import { store } from "@/store/store";
-import { InfoType } from "@/types/app";
+import { BeforeInstallPromptEvent, InfoType } from "@/types/app";
 import { getCookie, isWebview } from "@/utils";
 import { authTokenHandler, handleResetStores } from "@/utils/handlers";
 import { promotionCookieInit } from "@/utils/promotion";
@@ -85,6 +86,18 @@ const App = ({ children }: AppProps) => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
   }, [dispatch, isAuth]);
+
+    useEffect(() => {
+    const handler = (e: Event) => {
+      e.preventDefault();
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
+    };
+
+    window.addEventListener("beforeinstallprompt", handler);
+
+
+    return () => window.removeEventListener("beforeinstallprompt", handler);
+  }, []);
 
   if (process.env.NEXT_PUBLIC_ENV === "test") {
     return <noindex>{children}</noindex>;

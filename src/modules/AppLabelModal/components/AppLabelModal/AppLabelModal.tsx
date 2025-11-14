@@ -1,53 +1,47 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 import { SomeComponent } from "@/components";
-import { useAppDispatch } from "@/hooks";
+import { useAppDispatch, useAppSelector, useIsAndroid } from "@/hooks";
 import { setAppLabelModal } from "@/store/slices/appSlice";
+import { LocalStorageKeys } from "@/types/app";
 
-interface BeforeInstallPromptEvent extends Event {
-  prompt: () => Promise<void>;
-  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
-}
-
+import AppLabel from "../AppLabel/AppLabel";
 
 const AppLabelModal = () => {
 
+  const isAndroid = useIsAndroid();
+
+  const pathname = usePathname();
+
   const dispatch = useAppDispatch();
 
+  const { isOpen } = useAppSelector((state) => state.app.appLabelModal);
+  const deferredPrompt = useAppSelector((state) => state.app.deferredPrompt);
 
   const setAppLabelModalClose = () => {
     dispatch(setAppLabelModal({ isOpen: false }));
   };
 
-  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
-    const handler = (e: Event) => {
-      e.preventDefault();
-      setDeferredPrompt(e as BeforeInstallPromptEvent);
-      setIsVisible(true);
-    };
-
-    window.addEventListener("beforeinstallprompt", handler);
-
-
-    return () => window.removeEventListener("beforeinstallprompt", handler);
-  }, []);
-
-  const handleInstallClick = async () => {
-    if (!deferredPrompt) return;
-
-    deferredPrompt.prompt();
-
-    setDeferredPrompt(null);
-  };
+    if (
+      !localStorage.getItem(LocalStorageKeys.AppLabelModalShow) &&
+      pathname === "/" &&
+      isAndroid &&
+      deferredPrompt
+    ) {
+      setTimeout(() => {
+        dispatch(setAppLabelModal({ isOpen: true }));
+        localStorage.setItem(LocalStorageKeys.AppLabelModalShow, "true");
+      }, 5000);
+    }
+  }, [pathname, dispatch, isAndroid, deferredPrompt]);
 
   return (
     <SomeComponent
-      isOpen={true}
+      isOpen={isOpen}
       contentSize="md"
       closeOnClickOutside
       withOverlay
@@ -55,15 +49,7 @@ const AppLabelModal = () => {
       onClose={setAppLabelModalClose}
     >
 
-      {isVisible && (
-        <button
-          onClick={handleInstallClick}
-          className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
-        >
-          Установить приложение
-        </button>
-      )}
-      <p>PWA 2</p>
+      <AppLabel />
     </SomeComponent>
   );
 };

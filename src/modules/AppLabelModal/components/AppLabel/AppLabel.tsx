@@ -3,7 +3,6 @@ import { useTranslations } from "next-intl";
 import { useAppSelector } from "@/hooks";
 import { Button } from "@/ui";
 
-import styles from "./styles.module.css";
 
 const AppLabel = () => {
   const t = useTranslations("appLabelModal");
@@ -18,7 +17,6 @@ const AppLabel = () => {
 
   return (
     <div>
-      <p className={styles.text}>test 1</p>
       <Button size="lg" onClick={handleInstallClick}>
         {t("action.1")}
       </Button>
