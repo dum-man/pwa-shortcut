@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import { SomeComponent } from "@/components";
 import { useAppDispatch, useAppSelector, useIsAndroid } from "@/hooks";
 import { setAppLabelModal } from "@/store/slices/appSlice";
-import { LocalStorageKeys } from "@/types/app";
 
 import AppLabel from "../AppLabel/AppLabel";
 
@@ -27,14 +26,12 @@ const AppLabelModal = () => {
 
   useEffect(() => {
     if (
-      !localStorage.getItem(LocalStorageKeys.AppLabelModalShow) &&
       pathname === "/" &&
       isAndroid &&
       deferredPrompt
     ) {
       setTimeout(() => {
         dispatch(setAppLabelModal({ isOpen: true }));
-        localStorage.setItem(LocalStorageKeys.AppLabelModalShow, "true");
       }, 5000);
     }
   }, [pathname, dispatch, isAndroid, deferredPrompt]);

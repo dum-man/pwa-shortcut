@@ -90,7 +90,7 @@ const App = ({ children }: AppProps) => {
     useEffect(() => {
     const handler = (e: Event) => {
       e.preventDefault();
-      setDeferredPrompt(e as BeforeInstallPromptEvent);
+     dispatch(setDeferredPrompt(e as BeforeInstallPromptEvent))
     };
 
     window.addEventListener("beforeinstallprompt", handler);
